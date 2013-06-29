@@ -8,7 +8,8 @@
 		<meta name="author" content="">
 
 		<!-- Le styles -->
-		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
 		<style type="text/css">
 			body {
 				padding-top: 60px;
@@ -28,11 +29,16 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
 		<link rel="shortcut icon" href="ico/favicon.png">
+		<!-- Place this tag in your head or just before your close body tag. -->
+		<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+			{ parsetags:'explicit'
+			}
+		</script>
 	</head>
 
 	<body>
 
-		<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar navbar-inner navbar-fixed-top">
 			<div class="navbar-inner">
 				<div class="container">
 					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -122,7 +128,7 @@
 				</p>
 				<h3>Position:</h3>
 				<p class="lead">
-					PHD. Student at <a href="http://www.upv.es">Universitat Polit&egrave;cnica de Val&egrave;ncia</a>, <a href="http://dsic.upv.es">Departament de Sistemes Inform&agrave;tics i Computaci&oacute;.</a>
+					PhD. Student at <a href="http://www.upv.es">Universitat Polit&egrave;cnica de Val&egrave;ncia</a>, <a href="http://dsic.upv.es">Departament de Sistemes Inform&agrave;tics i Computaci&oacute;.</a>
 
 				</p>
 				<p class ="lead">
@@ -175,7 +181,7 @@
 								<td>Emilio Sanchis, Llu&iacute;s-Felip Hurtado, Fernando Garc&iacute;a, Joan Pastor, Joaquin Planells, and Encarna Segarra. <b>Sistema de di&aacute;logo multimodal basado en modelos estad&iacute;sticos.</b><i>In XXVII edici&oacute;n del Congreso Anual de la Sociedad Espa&ntilde;ola para el Procesamiento del Lenguaje Natural (SEPLN)</i>,
 								2011.</td>
 							</tr>
-							</thead>
+							</tbody>
 					</table>
 				</div>
 				<div class="page-header">
@@ -317,7 +323,7 @@
 									<a href="">Web Development</a>, June, 2013.
 								</li>
 								<li>
-									<a href="">Neural Networks for Machine Learning</a>, December, 2012</a>
+									<a href="">Neural Networks for Machine Learning</a>, December, 2012.
 								</li>
 								<li>
 									<a href="">Algorithms, Part I, August</a>, 2012.
@@ -330,11 +336,45 @@
 			<section id="contact">
 				<div class="page-header">
 					<h1>Contact</h1>
-				</div>
+					<address>
+						<strong>Departamento de Sistemes Inform&agrave;tics i Computaci&oacute;</strong>
+						<b>Edificio 1F</b>
+						<br>
+						Universitat Polit&egrave;cnica de Val&egrave;ncia
+						<br>
+						Camino de Vera s/n
+						<br>
+						46022, Valencia, Spain
+						<br>
+						<abbr title="Phone">P:</abbr> +34 963877000 <abbr title="Extension">Ext: 73550
+
+					</address>
+
+					<address>
+						<strong>Joan Pastor Pellicer</strong>
+						<br>
+						jpastor __AT__ dsic.upv.es
+						<br>
+						joapaspe __AT__ gmail.com
+					</address>
+					</div>
 			</section>
 			<section id="social">
 				<div class="page-header">
 					<h1>Social</h1>
+					<a href="http://es.linkedin.com/in/joapaspe"> <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Joan Pastor Pellicer's profile on LinkedIn"> </a>
+					<br>
+					<!-- Place this code where you want the badge to render. -->
+					<a href="http://plus.google.com/114143608217887742364?prsrc=3"
+					rel="publisher" target="_top" style="text-decoration:none;"> <img src="http://ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/> </a>
+					<br>
+					<!-- Place this tag where you want the badgev2 to render. -->
+					<g:person href="http//plus.google.com/114143608217887742364" layout="landscape" rel="author"></g:person>
+
+					<!-- Place this render call where appropriate. -->
+					<script type="text/javascript">
+					gapi.person.go();
+					</script>
 				</div>
 			</section>
 
@@ -365,6 +405,18 @@
 			$(document).ready(function() {
 				$('.carousel').carousel();
 			})
+			
+			//Santile things
+			//Stile things
+			/*
+			var styles = ["amelia", "cosmos", "flatty", "original", "simplex", "spacelab", "ubuntu"]
+			
+			 $.each(styles,function(index, value){
+				var mycss = '<link rel="stylesheet" href="css/themes/'+value+'/bootstrap.min.css" type="text/css title="'+value+'" />';
+				$('head').append(mycss); 	
+ 			});
+ 			*/
+			
 		</script>
 	</body>
 </html>
