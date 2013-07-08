@@ -27,8 +27,8 @@
         <link rel="shortcut icon" href="ico/favicon.png">
 
     </head>
-
-    <body>
+	
+    <body data-spy="scroll" data-target=".navbar">
 
         <div class="navbar navbar-inner navbar-fixed-top">
 
@@ -42,7 +42,7 @@
                 <div class="nav-collapse collapse">
                     <ul class="nav">
                         <li class="active">
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
                         </li>
                         <li class>
                         <a href="#publications">Publications & Projects</a>
@@ -413,21 +413,16 @@
                     <script>
                         $(document).ready(function() {
                             $('.carousel').carousel();
-                            $('.navbar a, .subnav a').smoothScroll();
+
                             $('.navbar').scrollspy()
+                            $('a').smoothScroll();
 
                         })
-                        //Santile things
-                        //Stile things
-                        /*
-                        var styles = ["amelia", "cosmos", "flatty", "original", "simplex", "spacelab", "ubuntu"]
+      
 
-                        $.each(styles,function(index, value){
-                            var mycss = '<link rel="stylesheet" href="css/themes/'+value+'/bootstrap.min.css" type="text/css title="'+value+'" />';
-                            $('head').append(mycss);
-                        });
-                        */
+                        
 
                     </script>
+                    
                 </body>
             </html>
