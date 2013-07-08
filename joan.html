@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Joan Pastor Pellicer - Departament de Sistemas Informàtics i Computaci&oacute;</title>
+		<title>Joan Pastor Pellicer - Departament de Sistemas Inform&Agrave;tics i Computaci&oacute;</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
@@ -24,50 +24,41 @@
 		<![endif]-->
 
 		<!-- Fav and touch icons -->
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
 		<link rel="shortcut icon" href="ico/favicon.png">
-		<!-- Place this tag in your head or just before your close body tag. -->
-		<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
-			{ parsetags:'explicit'
-			}
-		</script>
+
 	</head>
 
 	<body>
 
 		<div class="navbar navbar-inner navbar-fixed-top">
-			<div class="navbar-inner">
+			
 				<div class="container">
-					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<!--<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-					</button>
+					</button> !-->
 					<a class="brand" href="#">Joan Pastor</a>
 					<div class="nav-collapse collapse">
 						<ul class="nav">
 							<li class="active">
 								<a href="#">Home</a>
 							</li>
-							<li>
+							<li class>
 								<a href="#publications">Publications & Projects</a>
 							</li>
-							<li>
+							<li class>
 								<a href="#personal">Personal Interests</a>
 							</li>
-							<li>
+							<li class>
 								<a href="#contact">Contact</a>
 							</li>
-							<li>
+							<li class>
 								<a href="#social">Social</a>
 							</li>
 
 						</ul>
 					</div><!--/.nav-collapse -->
-				</div>
 			</div>
 		</div>
 
@@ -417,10 +408,14 @@
 		<script>
 			window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
 		</script>
-		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/jquery.smooth-scroll.min.js"></script>
 		<script>
 			$(document).ready(function() {
 				$('.carousel').carousel();
+				$('.navbar a, .subnav a').smoothScroll();
+				$('.navbar').scrollspy()
+
 			})
 			//Santile things
 			//Stile things
