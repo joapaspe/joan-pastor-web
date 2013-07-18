@@ -10,12 +10,8 @@
 		<!-- Le styles -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/font-awesome.min.css" rel="stylesheet">
-		<style type="text/css">
-			body {
-				padding-top: 60px;
-				padding-bottom: 40px;
-			}
-		</style>
+		<link href="css/joan.css" rel="stylesheet">
+
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -27,142 +23,147 @@
 		<link rel="shortcut icon" href="ico/favicon.png">
 
 	</head>
-
+	
 	<body data-spy="scroll" data-target=".navbar">
+		<div id="wrap">
+			<div class="navbar navbar-inner navbar-fixed-top">
 
-		<div class="navbar navbar-inner navbar-fixed-top">
+				<div class="container">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="brand" href="#">Joan Pastor</a>
+					<div class="nav-collapse collapse">
+						<ul class="nav">
+							<li class="active">
+								<a href="#home">Home</a>
+							</li>
+							<li class>
+								<a href="#publications">Publications & Projects</a>
+							</li>
+							<li class>
+								<a href="#personal">Personal Interests</a>
+							</li>
+							<li class>
+								<a href="#contact">Contact</a>
+							</li>
+							<li class>
+								<a href="#social">Social</a>
+							</li>
+
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
 
 			<div class="container">
-				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="brand" href="#">Joan Pastor</a>
-				<div class="nav-collapse collapse">
-					<ul class="nav">
-						<li class="active">
-							<a href="#home">Home</a>
-						</li>
-						<li class>
-							<a href="#publications">Publications & Projects</a>
-						</li>
-						<li class>
-							<a href="#personal">Personal Interests</a>
-						</li>
-						<li class>
-							<a href="#contact">Contact</a>
-						</li>
-						<li class>
-							<a href="#social">Social</a>
-						</li>
+				<section id="home">
+					<!--  Carousel - consult the Twitter Bootstrap docs at
+					http://twitter.github.com/bootstrap/javascript.html#carousel -->
+					<div id="this-carousel-id" class="carousel slide">
 
-					</ul>
-				</div><!--/.nav-collapse -->
-			</div>
-		</div>
+						<ol class="carousel-indicators">
+							<li data-target="#this-carousel-id" data-slide-to="0" class="active"></li>
+							<li data-target="#this-carousel-id" data-slide-to="1"></li>
+							<li data-target="#this-carousel-id" data-slide-to="2"></li>
+							<li data-target="#this-carousel-id" data-slide-to="3"></li>
+						</ol>
+						<!-- class of slide for animation -->
+						<div class="carousel-inner">
+							<div class="item active">
+								<!-- class of active since it's the first item -->
+								<img src="img/fotos/roma1.jpg" alt="" />
+								<div class="carousel-caption">
 
-		<div class="container">
-			<section id="home">
-				<!--  Carousel - consult the Twitter Bootstrap docs at
-				http://twitter.github.com/bootstrap/javascript.html#carousel -->
-				<div id="this-carousel-id" class="carousel slide">
+									<p>
+										<h2><a href="http://www.trabhci.eu/">TrabHCI at Rome, 2013</a></h2>
+									</p>
+								</div>
+							</div>
+							<div class="item">
+								<img src="img/fotos/roma2.jpg" alt="" />
+								<div class="carousel-caption">
+									<p>
+										<h2><a href="http://www.trabhci.eu/">TrabHCI at Rome, 2013</a></h2>
+									</p>
 
-					<ol class="carousel-indicators">
-						<li data-target="#this-carousel-id" data-slide-to="0" class="active"></li>
-						<li data-target="#this-carousel-id" data-slide-to="1"></li>
-						<li data-target="#this-carousel-id" data-slide-to="2"></li>
-						<li data-target="#this-carousel-id" data-slide-to="3"></li>
-					</ol>
-					<!-- class of slide for animation -->
-					<div class="carousel-inner">
-						<div class="item active">
-							<!-- class of active since it's the first item -->
-							<img src="img/fotos/roma1.jpg" alt="" />
-							<div class="carousel-caption">
+								</div>
+							</div>
+							<div class="item">
+								<img src="img/fotos/swerc1.jpg" alt="" />
+								<div class="carousel-caption">
+									<p>
+										<h2><a href="http://www.swerc.eu/">SWERC at Valencia, 2013</a></h2>
+									</p>
 
-								<p>
-									<h2><a href="http://www.trabhci.eu/">TrabHCI at Rome, 2013</a></h2>
-								</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<img src="img/fotos/swerc2.jpg" alt="" />
+								<div class="carousel-caption">
+									<p>
+										<h2><a href="http://www.swerc.eu/">SWERC at Valencia, 2013</a></h2>
+									</p>
+
+								</div>
 							</div>
 						</div>
-						<div class="item">
-							<img src="img/fotos/roma2.jpg" alt="" />
-							<div class="carousel-caption">
-								<p>
-									<h2><a href="http://www.trabhci.eu/">TrabHCI at Rome, 2013</a></h2>
-								</p>
+					</div><!-- /.carousel-inner -->
+					<!--  Next and Previous controls below
+					href values must reference the id for this carousel -->
+					<a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+					<a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
 
+					<div class= "page-header">
+						<h1>Bio:</h1>
+					</div>
+					<h3>Member of:</h3>
+					<p class="lead">
+						Natural Language Engineering and Pattern Recognition (<a href="http://users.dsic.upv.es/grupos/rfia/rfia.html">ELiRF</a>) Group
+					</p>
+					<h3>Position:</h3>
+					<p class="lead">
+						PhD. Student at <a href="http://www.upv.es">Universitat Polit&egrave;cnica de Val&egrave;ncia</a>, <a href="http://dsic.upv.es">Departament de Sistemes Inform&agrave;tics i Computaci&oacute;.</a>
+
+					</p>
+					<p class ="lead">
+						<a href="http://blogs.uji.es/hitita/">HITITA</a>: Human-assisted interactive transcription of ancient printed and handwritten documents
+					</p>
+
+					<h3>My Cv</h3>
+					<div class="row">
+						<div class="span4">
+							<div class="media">
+								<a class="pull-left" href="files/joan-pastor-cv.pdf"> <img class="media-object" src="img/pdf.jpg" width="64"/> </a>
+								<div class="media-body">
+									<h4 class="media-heading">Spanish Version</h4>
+									Last Update: June, 2013.
+
+								</div>
 							</div>
 						</div>
-						<div class="item">
-							<img src="img/fotos/swerc1.jpg" alt="" />
-							<div class="carousel-caption">
-								<p>
-									<h2><a href="http://www.swerc.eu/">SWERC at Valencia, 2013</a></h2>
-								</p>
+						<div class="span4">
+							<div class="media">
+								<a class="pull-left"> <img class="media-object" src="img/pdf.jpg" width="64"> </a>
+								<div class="media-body">
+									<h4 class="media-heading">English Version</h4>
+									Coming Soon! (or not...)
 
-							</div>
-						</div>
-
-						<div class="item">
-							<img src="img/fotos/swerc2.jpg" alt="" />
-							<div class="carousel-caption">
-								<p>
-									<h2><a href="http://www.swerc.eu/">SWERC at Valencia, 2013</a></h2>
-								</p>
-
+								</div>
 							</div>
 						</div>
 					</div>
-				</div><!-- /.carousel-inner -->
-				<!--  Next and Previous controls below
-				href values must reference the id for this carousel -->
-				<a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
-				<a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+				</section>
 
-				<h1>Bio:</h1>
-				<h3>Member of:</h3>
-				<p class="lead">
-					Natural Language Engineering and Pattern Recognition (<a href="http://users.dsic.upv.es/grupos/rfia/rfia.html">ELiRF</a>) Group
-				</p>
-				<h3>Position:</h3>
-				<p class="lead">
-					PhD. Student at <a href="http://www.upv.es">Universitat Polit&egrave;cnica de Val&egrave;ncia</a>, <a href="http://dsic.upv.es">Departament de Sistemes Inform&agrave;tics i Computaci&oacute;.</a>
+				<hr>
+				<section id="publications">
 
-				</p>
-				<p class ="lead">
-					<a href="http://blogs.uji.es/hitita/">HITITA</a>: Human-assisted interactive transcription of ancient printed and handwritten documents
-				</p>
-
-				<h3>My Cv</h3>
-				<div class="row">
-					<div class="span4">
-						<div class="media">
-							<a class="pull-left" href="files/joan-pastor-cv.pdf"> <img class="media-object" src="img/pdf.jpg" width="64"/> </a>
-							<div class="media-body">
-								<h4 class="media-heading">Spanish Version</h4>
-								Last Update: June, 2013.
-
-							</div>
-						</div>
+					<div class="page-header">
+						<h1> Publications and Projects</h1>
 					</div>
-					<div class="span4">
-						<div class="media">
-							<a class="pull-left"> <img class="media-object" src="img/pdf.jpg" width="64"> </a>
-							<div class="media-body">
-								<h4 class="media-heading">English Version</h4>
-								Coming Soon! (or not...)
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="publications">
-
-				<div class="page-header">
-					<h1> Publications and Projects</h1>
 					<table class="table">
 						<thead>
 							<tr>
@@ -183,9 +184,10 @@
 							</tr>
 						</tbody>
 					</table>
-				</div>
-				<div class="page-header">
-					<h3> Projects: </h3>
+
+					<div class="page-header">
+						<h3> Projects: </h3>
+					</div>
 					<div class="row">
 						<div class="span3">
 							<a href="https://github.com/pakozm/april-ann"> <h4>April-ANN</h4> <img src="img/github.png" class="img-circle" width="128px"> </a>
@@ -206,140 +208,145 @@
 								I've been using Bitbuckets for another projects, mostly privates.
 							</p>
 						</div>
-					</div>
-				</div>
-
-			</section>
-			<section id="personal">
-
-				<h1>Personal Interests</h1>
-				<h3>Programming Contests</h3>
-				<p class="lead">
-					I enjoy solving problems and participating in different programming contests. I also enjoy with algorithms and proposing problems.
-					Here it is some contest and pages that I use.
-
-				</p>
-
-				<div class="row">
-					<div class="span3 text-center">
-						<a href="http://codeforces.com/profile/joapaspe"> <h4>Codeforces</h4> <img src="img/codeforces.png" class="img-circle" width="256px"> </a>
-						<p>
-							Check out my profile at CODEFORCES.
-						</p>
 
 					</div>
-					<div class="span3 text-center">
-						<a href="http://uhunt.felix-halim.net/id/135046"> <h4>Uva Online Judge</h4> <img src="img/uvajudge.png" class="img-rounded" width="128px"> </a>
-						<p>
-							My uHunt at UVA online judge.
-						</p>
-
+					<hr>
+				</section>
+				<section id="personal">
+					<div class= "page-header">
+						<h1>Personal Interests</h1>
+						<h3>Programming Contests</h3>
 					</div>
-					<div class="span3 text-center">
-						<a href="http://www.checkio.org/profile/user/Joan/info/"> <h4>Check iO</h4> <img src="img/checkio.png" class="img-rounded" width="256px"> </a>
-						<p>
-							CheckiO is a game world you can explore using your programming skills.
-						</p>
+					<p class="lead">
+						I enjoy solving problems and participating in different programming contests. I also enjoy with algorithms and proposing problems.
+						Here it is some contest and pages that I use.
 
-					</div>
-					<div class="span3">
-						<h4>Other contests I use to compete:</h4>
-						<ul>
-							<li>
-								<a href="https://code.google.com/codejam"><b>Google Codejam</b></a>
-							</li>
-							<li>
-								<a href="https://www.facebook.com/hackercup"><b>Facebook Hacker Cup</b></a>
-							</li>
-							<li>
-								<a href="https://contest.tuenti.net/"><b>Tuenti Challenge</b></a>
-							</li>
-						</ul>
+					</p>
 
-					</div>
-
-				</div>
-				<hr>
-				<p class="lead">
-					I have been member of the Judges and Problem Setters for two Contests:
 					<div class="row">
-						<div class="span4 offset1 text-center">
-							<a href="http://users.dsic.upv.es/grupos/clocalprog/"> <h4>ClocalProg</h4> <img src="img/clocalprog.png"> </a>
+						<div class="span3 text-center">
+							<a href="http://codeforces.com/profile/joapaspe"> <h4>Codeforces</h4> <img src="img/codeforces.png" class="img-circle" width="256px"> </a>
 							<p>
-								<i>Competici&oacute;n Local de Programaci&oacute;n</i> is a local contests organized by <a href="">ETSINF</a> (<a href="">UPV</a>),
-								where Computer's Degree students particpate. Winners are selected to participate on the ACM, regional contest.
+								Check out my profile at CODEFORCES.
 							</p>
+
+						</div>
+						<div class="span3 text-center">
+							<a href="http://uhunt.felix-halim.net/id/135046"> <h4>Uva Online Judge</h4> <img src="img/uvajudge.png" class="img-rounded" width="128px"> </a>
+							<p>
+								My uHunt at UVA online judge.
+							</p>
+
+						</div>
+						<div class="span3 text-center">
+							<a href="http://www.checkio.org/profile/user/Joan/info/"> <h4>Check iO</h4> <img src="img/checkio.png" class="img-rounded" width="256px"> </a>
+							<p>
+								CheckiO is a game world you can explore using your programming skills.
+							</p>
+
+						</div>
+						<div class="span3">
+							<h4>Other contests I use to compete:</h4>
+							<ul>
+								<li>
+									<a href="https://code.google.com/codejam"><b>Google Codejam</b></a>
+								</li>
+								<li>
+									<a href="https://www.facebook.com/hackercup"><b>Facebook Hacker Cup</b></a>
+								</li>
+								<li>
+									<a href="https://contest.tuenti.net/"><b>Tuenti Challenge</b></a>
+								</li>
+							</ul>
+
 						</div>
 
-						<div class="span4 offset1 text-center">
-							<a href="http://www.swerc.eu"> <h4>SWERC</h4> <img src="img/icpclogo.png"> </a>
-							<p>
-								<i>Southwestern European Regional Programming Contest</i> is integrated in the ACM International Collegiate Programming Contest.
-								It draws students from colleges and universities throughout France, Italy, Portugal, Spain, Switzerland, and western Austria.
-								The winning team will advance to the ACM Programming Contest World Finals.
-							</p>
-						</div>
 					</div>
 
-					<div>
-
-					</div>
-					<h3>Online Courses:</h3>
-					<div class="row">
-
-						<div class="span6">
-
-							<div class="hero-unit">
+					<p class="lead">
+						I have been member of the Judges and Problem Setters for two Contests:
+						<div class="row">
+							<div class="span4 offset1 text-center">
+								<a href="http://users.dsic.upv.es/grupos/clocalprog/"> <h4>ClocalProg</h4> <img src="img/clocalprog.png"> </a>
 								<p>
-									I like to learn and discover things. I took some courses (MOOCs) from the platforms <a href="http://www.coursera.org">Coursera</a>
-									and <a href="http://www.udacity.com">Udacity</a>.
+									<i>Competici&oacute;n Local de Programaci&oacute;n</i> is a local contests organized by <a href="">ETSINF</a> (<a href="">UPV</a>),
+									where Computer's Degree students particpate. Winners are selected to participate on the ACM, regional contest.
 								</p>
+							</div>
+
+							<div class="span4 offset1 text-center">
+								<a href="http://www.swerc.eu"> <h4>SWERC</h4> <img src="img/icpclogo.png"> </a>
 								<p>
-									Check out my Coursera profile at:
-								</p>
-								<p class="text-center">
-									<a href="https://www.coursera.org/user/i/d4a3b9e130284f2ae2980e5c13aacd79"><img src="img/coursera.png"></a>
+									<i>Southwestern European Regional Programming Contest</i> is integrated in the ACM International Collegiate Programming Contest.
+									It draws students from colleges and universities throughout France, Italy, Portugal, Spain, Switzerland, and western Austria.
+									The winning team will advance to the ACM Programming Contest World Finals.
 								</p>
 							</div>
 						</div>
-						<div class="span6">
 
-							<h4>Courses taken:</h4>
+						<div>
 
-							<ul>
-								<li>
-									<a href="https://www.coursera.org/course/ml">Machine Learning</a>, December, 2011.
-								</li>
-								<li>
-									<a href="https://www.ai-class.com/">Introduciton to Artificial Intelligence</a>, December, 2011.
-								</li>
-								<li>
-									<a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis, Part I</a>, March, 2012.
-								</li>
-								<li>
-									<a href="https://www.coursera.org/course/algo2">Natural Language Processing</a>, May, 2012.
-								</li>
-								<li>
-									<a href="https://www.udacity.com/course/cs253">Web Development</a>, June, 2012.
-								</li>
-								<li>
-									<a href="https://www.coursera.org/course/algs4partI">Algorithms, Part I, </a>, August 2012.
-								</li>
-								<li>
-									<a href="https://www.coursera.org/course/neuralnets">Neural Networks for Machine Learning</a>, October, 2012.
-								</li>
-								
-								<li>
-									<a href="https://www.coursera.org/course/algo2">Algorithms: Design and Analysis, Part II</a>, December, 2012.
-								</li>
-							</ul>
 						</div>
+						<div class="page-header">
+							<h3>Online Courses:</h3>
+						</div>
+						<div class="row">
 
+							<div class="span6">
+
+								<div class="hero-unit">
+									<p>
+										I like to learn and discover things. I took some courses (MOOCs) from the platforms <a href="http://www.coursera.org">Coursera</a>
+										and <a href="http://www.udacity.com">Udacity</a>.
+									</p>
+									<p>
+										Check out my Coursera profile at:
+									</p>
+									<p class="text-center">
+										<a href="https://www.coursera.org/user/i/d4a3b9e130284f2ae2980e5c13aacd79"><img src="img/coursera.png"></a>
+									</p>
+								</div>
+							</div>
+							<div class="span6">
+
+								<h4>Courses taken:</h4>
+
+								<ul>
+									<li>
+										<a href="https://www.coursera.org/course/ml">Machine Learning</a>, December, 2011.
+									</li>
+									<li>
+										<a href="https://www.ai-class.com/">Introduciton to Artificial Intelligence</a>, December, 2011.
+									</li>
+									<li>
+										<a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis, Part I</a>, March, 2012.
+									</li>
+									<li>
+										<a href="https://www.coursera.org/course/algo2">Natural Language Processing</a>, May, 2012.
+									</li>
+									<li>
+										<a href="https://www.udacity.com/course/cs253">Web Development</a>, June, 2012.
+									</li>
+									<li>
+										<a href="https://www.coursera.org/course/algs4partI">Algorithms, Part I, </a>, August 2012.
+									</li>
+									<li>
+										<a href="https://www.coursera.org/course/neuralnets">Neural Networks for Machine Learning</a>, October, 2012.
+									</li>
+
+									<li>
+										<a href="https://www.coursera.org/course/algo2">Algorithms: Design and Analysis, Part II</a>, December, 2012.
+									</li>
+								</ul>
+							</div>
+
+						</div>
+						<hr>
+				</section>
+				<section id="contact">
+					<div class="page-header">
+						<h1>Contact</h1>
 					</div>
-			</section>
-			<section id="contact">
-				<div class="page-header">
-					<h1>Contact</h1>
 					<address>
 						<strong>Departamento de Sistemes Inform&agrave;tics i Computaci&oacute;</strong>
 						<b>Edificio 1F</b>
@@ -360,72 +367,82 @@
 						<br>
 						joapaspe __AT__ gmail.com
 					</address>
-				</div>
-			</section>
-			<section id="social">
-				<div class="page-header">
-					<h1>Social</h1>
-				</div>
-				<div class="row">
-					<div class="span4">
-						<div class="g-person" data-href="//plus.google.com/114143608217887742364" data-rel="author"></div>
 
-						<!-- Place this tag after the last widget tag. -->
-						<script type="text/javascript">
-							(function() {
-								var po = document.createElement('script');
-								po.type = 'text/javascript';
-								po.async = true;
-								po.src = 'https://apis.google.com/js/plusone.js';
-								var s = document.getElementsByTagName('script')[0];
-								s.parentNode.insertBefore(po, s);
-							})();
-						</script>
-						<p>
-							<!-- Facebook Badge START --><a href="http://www.facebook.com/joapaspe" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Joan Pastor">Joan Pastor</a>
-							<br/>
-							<a href="http://www.facebook.com/joapaspe" target="_TOP" title="Joan Pastor"><img src="http://badge.facebook.com/badge/1121859428.3109.531556530.png" style="border: 0px;" /></a><!-- Facebook Badge END -->
-						</p>
-						<!-- Place this tag where you want the widget to render. -->
+				</section>
+				<hr>
+				<section id="social">
+					<div class="page-header">
+						<h1>Social</h1>
 					</div>
-					<div class="span2">
-						<p>
-							<a href="http://es.linkedin.com/in/joapaspe"> <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Joan Pastor Pellicer's profile on LinkedIn"> </a>
-						</p>
-						
+					<div class="row">
+						<div class="span4">
+							<div class="g-person" data-href="//plus.google.com/114143608217887742364" data-rel="author"></div>
+
+							<!-- Place this tag after the last widget tag. -->
+							<script type="text/javascript">
+								(function() {
+									var po = document.createElement('script');
+									po.type = 'text/javascript';
+									po.async = true;
+									po.src = 'https://apis.google.com/js/plusone.js';
+									var s = document.getElementsByTagName('script')[0];
+									s.parentNode.insertBefore(po, s);
+								})();
+							</script>
+							<p>
+								<!-- Facebook Badge START --><a href="http://www.facebook.com/joapaspe" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Joan Pastor">Joan Pastor</a>
+								<br/>
+								<a href="http://www.facebook.com/joapaspe" target="_TOP" title="Joan Pastor"><img src="http://badge.facebook.com/badge/1121859428.3109.531556530.png" style="border: 0px;" /></a><!-- Facebook Badge END -->
+							</p>
+							<!-- Place this tag where you want the widget to render. -->
+						</div>
+						<div class="span2">
+							<p>
+								<a href="http://es.linkedin.com/in/joapaspe"> <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Joan Pastor Pellicer's profile on LinkedIn"> </a>
+							</p>
+
+						</div>
+
+						<div class="span6">
+							<a class="twitter-timeline" href="https://twitter.com/joan_batiste" data-widget-id="351015601390624769">Tweets by @joan_batiste</a>
+							<script>
+								! function(d, s, id) {
+									var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+									if (!d.getElementById(id)) {
+										js = d.createElement(s);
+										js.id = id;
+										js.src = p + "://platform.twitter.com/widgets.js";
+										fjs.parentNode.insertBefore(js, fjs);
+									}
+								}(document, "script", "twitter-wjs");
+							</script>
+
+						</div>
 					</div>
 
-					<div class="span6">
-						<a class="twitter-timeline" href="https://twitter.com/joan_batiste" data-widget-id="351015601390624769">Tweets by @joan_batiste</a>
-						<script>
-							! function(d, s, id) {
-								var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-								if (!d.getElementById(id)) {
-									js = d.createElement(s);
-									js.id = id;
-									js.src = p + "://platform.twitter.com/widgets.js";
-									fjs.parentNode.insertBefore(js, fjs);
-								}
-							}(document, "script", "twitter-wjs");
-						</script>
-
-					</div>
-				</div>
-
-			</section>
-
-		</div>
-
-		<hr>
-
-		<div id="footer">
-			<div class="container">
-				<p>
-					Joan Pastor, 2013 <iframe src="http://ghbtns.com/github-btn.html?user=joapaspe&type=follow"
-					allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
-				</p>
+				</section>
 			</div>
-
+		</div>
+		<hr>
+		<div id="footer">
+			<div class="row">
+				
+			
+			<div class="container">
+				<div class="span3">
+					<a href="http://www.upv.es"><img src="img/UPV.jpg"></a>
+				</div>
+				<div class="span3 offset1" >
+				
+					Joan Pastor, 2013 <br> <iframe src="http://ghbtns.com/github-btn.html?user=joapaspe&type=follow"
+					allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
+				
+				</div>
+				<div class="span3">
+					<a href="http://www.dsic.upv.es"><img src="img/dsic.png"></a>
+				</div>
+			
+			</div>
 		</div>
 		<!-- /container -->
 
@@ -448,6 +465,6 @@
 			})
 
 		</script>
-
+	
 	</body>
 </html>
