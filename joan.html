@@ -23,11 +23,12 @@
 		<link rel="shortcut icon" href="ico/favicon.png">
 	</head>
 
-	<body data-spy="scroll" data-target=".navbar">
+	<body data-spy="scroll" data-offset="100" data-target=".navbar">
 		
-		<div id="wrap">
+		<div id="home">
+
 			<div class="container">
-			<section id="home">	
+			
 			<div class="navbar navbar-fixed-top">
 				<div class="navbar-inner">
 				<div class="container">
@@ -39,7 +40,7 @@
 					<a class="brand" href="#">Joan Pastor</a>
 					<div class="nav-collapse collapse">
 						<ul class="nav">
-							<li class="active">
+							<li id="nav-home" class="active">
 								<a href="#home">Home</a>
 							</li>
 							<li class>
@@ -60,7 +61,7 @@
 				</div>
 			</div>
 			</div> <!-- navbar -->
-
+			
 			<div class="container">
 				
 				
@@ -172,9 +173,7 @@
 								</div>
 							</div>
 						</div>
-					
-				</section>
-
+			
 				<hr>
 				<section id="publications">
 
@@ -477,9 +476,11 @@
 				$(document).ready(function() {
 					$('.carousel').carousel();
 
-					$('.navbar').scrollspy()
+					$('.navbar').scrollspy();
+					//$("#nav-home").toggleClass("active", true);
+
 					//$('a').smoothScroll();
-					$('.navbar a').smoothScroll();
+					$('.navbar a').smoothScroll({exclude: ['#home']});
 				})
 
 			</script>
