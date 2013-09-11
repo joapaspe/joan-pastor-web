@@ -23,17 +23,17 @@
 		<link rel="shortcut icon" href="ico/favicon.png">
 	</head>
 
-	<body data-spy="scroll" data-offset="100" data-target=".navbar">
+	<body data-spy="scroll" data-col-md-offset-="100" data-target=".navbar">
 		
 			<div class="container">
 			
 			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
+						<col-md- class="sr-only">Toggle navigation</col-md->
+						<col-md- class="icon-bar"></col-md->
+						<col-md- class="icon-bar"></col-md->
+						<col-md- class="icon-bar"></col-md->
 					</button>
 					<a class="navbar-brand" href="#">Joan Pastor</a>
 				</div>
@@ -59,7 +59,7 @@
 					</div><!--/.nav-collapse -->
 					
 				</div>
-			</div> <!-- navbar -->
+			
 			<section id="home">
 			<div class="container">
 					
@@ -80,13 +80,14 @@
 								<!-- class of active since it's the first item -->
 								<img src="img/fotos/roma1.jpg" alt="" />
 								<div class="carousel-caption">
-
+									
 									<p>
 										<h2><a href="http://www.trabhci.eu/">TrabHCI at Rome, 2013</a></h2>
 									</p>
 									<p>
 										Technologies to Reduce the Access Barrier in Human Computer Interaction Erasmus Intensive Programme which I have been collaborating as a teacher on handwritting recognition topic.
 									</p>
+								
 								</div>
 							</div>
 							<div class="item">
@@ -128,13 +129,13 @@
 						</div><!-- /.carousel-inner -->
 						<!--  Next and Previous controls below
 						href values must reference the id for this carousel -->
-						<a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
-						<a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+						<a class="left carousel-control" href="#this-carousel-id" data-slide="prev"><col-md- class="icon-prev"></col-md-></a>
+						<a class="right carousel-control" href="#this-carousel-id" data-slide="next"><col-md- class="icon-next"></col-md-></a>
 					
 						</div>
 					</div>
 					<div class="row">
-						<div class="span6">
+						<div class="col-md-6">
 						<div class="page-header"><h1>Joan Pastor Pellicer<h1></div>
 						<p></p>
 						<p>
@@ -148,20 +149,20 @@
 						</p>
 						</div>
 					
-					<div class="span4">
+					<div class="col-md-4">
 						<h3>My Cv</h3>
 						<div class="row">
-							<div class="span2">
+							<div class="col-md-6">
 								<div class="media">
 									<a class="pull-left" href="files/joan-pastor-cv.pdf"> <img class="media-object" src="img/pdf.jpg" width="64"/> </a>
 									<div class="media-body">
-										<h4 class="media-heading">Spanish Version</h4>
+										<h4 class="media-heading">col-md-ish Version</h4>
 										Last Update: June, 2013.
 
 									</div>
 								</div>
 							</div>
-							<div class="span2">
+							<div class="col-md-6">
 								<div class="media">
 									<a class="pull-left"> <img class="media-object" src="img/pdf.jpg" width="64"> </a>
 									<div class="media-body">
@@ -218,20 +219,20 @@
 						<h3> Projects: </h3>
 					</div>
 					<div class="row">
-						<div class="span3">
-							<a href="https://github.com/pakozm/april-ann"> <h4>April-ANN</h4> <img src="img/april.png" class="img-rounded" width="128px"> </a>
+						<div class="col-md-3">
+							<a href="https://github.com/pakozm/april-ann"> <h4>April-ANN</h4> <img src="img/april.png" class="img-rounded img-responsive" width="128px"> </a>
 							<p>
 								April-ann toolkit (A Pattern Recognizer In Lua with Artificial Neural Networks). Is a toolkit that incorporates ANN algorithms (as dropout, stacked denoising auto-encoders, convolutional neural networks), with other pattern recognition methods as hiddem makov models (HMMs). I have been using and contributing this amazing tool during my research.
 							</p>
 						</div>
-						<div class="span3 offset1">
-							<a href="https://github.com/joapaspe"> <h4>My Projects at Github</h4> <img src="img/jo-github.jpg" class="img-circle" width="128px"> </a>
+						<div class="col-md-3 col-md-offset-1">
+							<a href="https://github.com/joapaspe"> <h4>My Projects at Github</h4> <img src="img/jo-github.jpg" class="img-circle img-responsive" width="128px"> </a>
 							<p>
 								Some personal projects and other stuff at Github.
 							</p>
 						</div>
-						<div class="span3 offset1">
-							<a href="https://bitbucket.org/joapaspe"> <h4>More projects at Bitbucket</h4> <img src="img/jo-bitbucket.jpg" class="img-rounded" width="128px"> </a>
+						<div class="col-md-3 col-md-offset-1">
+							<a href="https://bitbucket.org/joapaspe"> <h4>More projects at Bitbucket</h4> <img src="img/jo-bitbucket.jpg" class="img-rounded img-responsive" width="128px"> </a>
 							<p>
 								I've been using Bitbuckets for another projects, mostly privates.
 							</p>
@@ -252,28 +253,28 @@
 					</p>
 
 					<div class="row">
-						<div class="span3 text-center">
-							<a href="http://codeforces.com/profile/joapaspe"> <h4>Codeforces</h4> <img src="img/codeforces.png" class="img-circle" width="256px"> </a>
+						<div class="col-md-3 text-center">
+							<a href="http://codeforces.com/profile/joapaspe"> <h4>Codeforces</h4> <img src="img/codeforces.png" class="img-circle img-responsive" width="256px"> </a>
 							<p>
 								Check out my profile at CODEFORCES.
 							</p>
 
 						</div>
-						<div class="span3 text-center">
-							<a href="http://uhunt.felix-halim.net/id/135046"> <h4>Uva Online Judge</h4> <img src="img/uvajudge.png" class="img-rounded" width="128px"> </a>
+						<div class="col-md-3 text-center">
+							<a href="http://uhunt.felix-halim.net/id/135046"> <h4>Uva Online Judge</h4> <img src="img/uvajudge.png" class="img-rounded img-responsive" width="128px"> </a>
 							<p>
 								My uHunt at UVA online judge.
 							</p>
 
 						</div>
-						<div class="span3 text-center">
-							<a href="http://www.checkio.org/profile/user/Joan/info/"> <h4>Check iO</h4> <img src="img/checkio.png" class="img-rounded" width="256px"> </a>
+						<div class="col-md-3 text-center">
+							<a href="http://www.checkio.org/profile/user/Joan/info/"> <h4>Check iO</h4> <img src="img/checkio.png" class="img-rounded img-responsive" width="256px"> </a>
 							<p>
 								CheckiO is a game world you can explore using your programming skills.
 							</p>
 
 						</div>
-						<div class="span3">
+						<div class="col-md-3">
 							<h4>Other contests I use to compete:</h4>
 							<ul>
 								<li>
@@ -294,16 +295,16 @@
 					<p>
 						I have been member of the Judges and Problem Setters for two Contests:
 						<div class="row">
-							<div class="span4 offset1 text-center">
-								<a href="http://users.dsic.upv.es/grupos/clocalprog/"> <h4>ClocalProg</h4> <img src="img/clocalprog.png"> </a>
+							<div class="col-md-4 col-md-offset-1 text-center">
+								<a href="http://users.dsic.upv.es/grupos/clocalprog/"> <h4>ClocalProg</h4> <img src="img/clocalprog.png" class="img-responsive"> </a>
 								<p>
 									<i>Competici&oacute;n Local de Programaci&oacute;n</i> is a local contests organized by <a href="">ETSINF</a> (<a href="">UPV</a>),
 									where Computer's Degree students participate. The winners are selected to participate on the ACM, regional contest.
 								</p>
 							</div>
 
-							<div class="span4 offset1 text-center">
-								<a href="http://www.swerc.eu"> <h4>SWERC</h4> <img src="img/icpclogo.png"> </a>
+							<div class="col-md-4 col-md-offset-1 text-center">
+								<a href="http://www.swerc.eu"> <h4>SWERC</h4> <img src="img/icpclogo.png" class="img-responsive"> </a>
 								<p>
 									<i>Southwestern European Regional Programming Contest</i> is integrated in the ACM International Collegiate Programming Contest.
 									It draws students from colleges and universities throughout France, Italy, Portugal, Spain, Switzerland, and western Austria.
@@ -320,7 +321,7 @@
 						</div>
 						<div class="row">
 
-							<div class="span6">
+							<div class="col-md-6">
 
 								<div class="hero-unit">
 									<p>
@@ -331,11 +332,11 @@
 										Check out my Coursera profile at:
 									</p>
 									<p class="text-center">
-										<a href="https://www.coursera.org/user/i/d4a3b9e130284f2ae2980e5c13aacd79"><img src="img/coursera.png"></a>
+										<a href="https://www.coursera.org/user/i/d4a3b9e130284f2ae2980e5c13aacd79"><img src="img/coursera.png" class="img-responsive"></a>
 									</p>
 								</div>
 							</div>
-							<div class="span6">
+							<div class="col-md-6">
 
 								<h4>Courses taken:</h4>
 
@@ -403,7 +404,7 @@
 						<h2>Social</h2>
 					</div>
 					<div class="row">
-						<div class="span4">
+						<div class="col-md-4">
 							<div class="g-person" data-href="//plus.google.com/114143608217887742364" data-rel="author"></div>
 
 							<!-- Place this tag after the last widget tag. -->
@@ -424,14 +425,14 @@
 							</p>
 							<!-- Place this tag where you want the widget to render. -->
 						</div>
-						<div class="span2">
+						<div class="col-md-2">
 							<p>
 								<a href="http://es.linkedin.com/in/joapaspe"> <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Joan Pastor Pellicer's profile on LinkedIn"> </a>
 							</p>
 
 						</div>
 
-						<div class="span6">
+						<div class="col-md-6">
 							<a class="twitter-timeline" href="https://twitter.com/joan_batiste" data-widget-id="351015601390624769">Tweets by @joan_batiste</a>
 							<script>
 								! function(d, s, id) {
@@ -456,10 +457,10 @@
 			<div class="row">
 
 				<div class="container">
-					<div class="span3">
-						<a href="http://www.upv.es"><img src="img/UPV.jpg"></a>
+					<div class="col col-md-3">
+						<a href="http://www.upv.es"><img class="img-thumbnail" src="img/UPV.jpg" ></a>
 					</div>
-					<div class="span3 offset1" >
+					<div class="col col-md-3 col-md-offset-1" >
 
 						Joan Pastor, 2013
 						<br>
@@ -467,8 +468,8 @@
 						allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
 
 					</div>
-					<div class="span3">
-						<a href="http://www.dsic.upv.es"><img src="img/dsic.png"></a>
+					<div class="col col-md-3">
+						<a href="http://www.dsic.upv.es"><img class="img-thumbnail" src="img/dsic.png"></a>
 					</div>
 
 				</div>
