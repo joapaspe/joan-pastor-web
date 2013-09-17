@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Joan Pastor Pellicer - Departament de Sistemas Inform&Agrave;tics i Computaci&oacute;</title>
+		<title>Joan Pastor Pellicer - Departament de Sistemas Inform&agrave;tics i Computaci&oacute;</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
@@ -21,6 +21,19 @@
 
 		<!-- Fav and touch icons -->
 		<link rel="shortcut icon" href="ico/favicon.png">
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-43961776-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+	</script>
 	</head>
 
 	<body data-spy="scroll" data-offset="125" data-target=".navbar">
@@ -149,12 +162,12 @@
 						</p>
 						</div>
 					
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<h3>My Cv</h3>
 						<div class="row">
 							<div class="col-md-6">
 								<div class="media">
-									<a class="pull-left" href="files/joan-pastor-cv.pdf"> <img class="media-object" src="img/pdf.jpg" width="64"/> </a>
+									<a class="pull-left" href="files/joan-pastor-cv.pdf" target="_blank"> <img class="media-object" src="img/pdf.jpg" width="64"/> </a>
 									<div class="media-body">
 										<h4 class="media-heading">Spanish Version</h4>
 										Last Update: June, 2013.
@@ -164,10 +177,10 @@
 							</div>
 							<div class="col-md-6">
 								<div class="media">
-									<a class="pull-left"> <img class="media-object" src="img/pdf.jpg" width="64"> </a>
+									<a class="pull-left" href="files/joan-pastor-cv-en.pdf" target="_blank"> <img class="media-object" src="img/pdf.jpg" width="64"> </a>
 									<div class="media-body">
 										<h4 class="media-heading">English Version</h4>
-										Coming Soon! (or not...)
+										Last Update: September, 2013. <span class="label label-info">New!</span>
 
 									</div>
 								</div>
@@ -199,7 +212,7 @@
 								<td><a target="_blank" href="http://link.springer.com/chapter/10.1007/978-3-642-25085-9_56#page-1"><img class="media-object" src="img/pdf.jpg" width="48"/></a></td>
 							</tr>
 							<tr>
-								<td>Joan Pastor, Llu&iacute;s-Felip Hurtado <b>Modelado de lenguaje basado en categorías para Búsqueda de Respuesta dirigida por la Voz</b><i> Master Thesis</i>, 2011. </td><td><a target="_blank" href="http://riunet.upv.es/handle/10251/15872"><img class="media-object" src="img/pdf.jpg" width="48"/></a></td>
+								<td>Joan Pastor, Llu&iacute;s-Felip Hurtado <b>Modelado de lenguaje basado en categor&iacute;as para B&uacute;squeda de Respuesta dirigida por la Voz</b><i> Master Thesis</i>, 2011. </td><td><a target="_blank" href="http://riunet.upv.es/handle/10251/15872"><img class="media-object" src="img/pdf.jpg" width="48"/></a></td>
 							</tr>
 							
 							<tr>
@@ -386,7 +399,7 @@
 						<br>
 						46022, Valencia, Spain
 						<br>
-						<abbr title="Phone">P:</abbr> +34 963877000 <abbr title="Extension">Ext: 73550
+						<abbr title="Phone">P:</abbr> +34 963877000 <abbr title="Extension">Ext: 73566
 					</address>
 
 					<address>
@@ -486,19 +499,7 @@
 			</script>
 			<script src="js/bootstrap.js"></script>
 			<script src="js/jquery.smooth-scroll.min.js"></script>
-			<script>
-				$(document).ready(function() {
-					$('.carousel').carousel();
-
-					//$('.navbar').scrollspy({data-offset:'10'});
-					//$('.navbar').scrollspy('refresh')
-					$("#nav-home").toggleClass("active", true);
-
-					$('a').smoothScroll({exclude: ['#home','#this-carousel-id'], offset: -100});
-					//$('.navbar a').smoothScroll();
-				})
-
-			</script>
-
+			<script src="js/joan.js"></script>
+	
 	</body>
 </html>
