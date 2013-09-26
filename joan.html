@@ -39,7 +39,7 @@
 	<body data-spy="scroll" data-offset="125" data-target=".navbar">
 		
 			<div class="container">
-			
+
 			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -67,14 +67,14 @@
 								<a href="#social">Social</a>
 							</li>
 						</ul>
+
 						<div class="pull-right navbar-text">joapaspe_at_gmail.com</div>
+						<a data-toggle="modal" href="#myModal" class="btn btn-default btn-xs pull-right navbar-text">Changelog!</a>
 					</div><!--/.nav-collapse -->
 					
 				</div>
 			
 			<section id="home">
-			<div class="container">
-					
 					<div class="container">
 					<!--  Carousel - consult the Twitter Bootstrap docs at
 					http://twitter.github.com/bootstrap/javascript.html#carousel -->
@@ -472,6 +472,34 @@
 			</div>
 		</div>
 		<hr>
+
+		<!---- Change log --->
+					<div class="container">
+			<!-- Button to trigger modal -->
+			<!-- Button trigger modal -->
+	  
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal-dialog">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	          <h3 class="modal-title">Changelog</h3>
+	        </div>
+	        <div class="modal-body">
+	        	<h3> 26/09/2013 </h3>
+	          <ul>
+  				<li>This amazing changelog has been added!</li>
+  			  </ul>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        </div>
+	      </div><!-- /.modal-content -->
+	    </div><!-- /.modal-dialog -->
+	  </div><!-- /.modal -->
+
 		<div id="footer">
 			<div class="row">
 
@@ -480,20 +508,26 @@
 						<a href="http://www.upv.es"><img class="img-thumbnail" src="img/UPV.jpg" ></a>
 					</div>
 					<div class="col col-md-3 col-md-offset-1" >
-
+						<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-md">Changelog!</a>
+						<br>
+						<br>
 						Joan Pastor, 2013
 						<br>
 						<iframe src="http://ghbtns.com/github-btn.html?user=joapaspe&type=follow"
 						allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
-
+						<br>
+						
 					</div>
 					<div class="col col-md-3">
 						<a href="http://www.dsic.upv.es"><img class="img-thumbnail" src="img/dsic.png"></a>
 					</div>
 
 				</div>
+
 			</div>
 			
+		
+
 			<!-- /container -->
 
 			<!-- Le javascript

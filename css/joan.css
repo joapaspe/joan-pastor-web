@@ -9,19 +9,11 @@ body {
 
 			}
 			
-#wrap {
-/*min-height: 100%;
-height: auto !important;
-height: 100%;
-margin: 0 auto -60px;*/
-}
+.row {
+	margin-top: 10px;
 
-#footer {
-/*height: 60px;*/
 }
-
 .carousel-caption{
   max-width: 550px;
   
-
 }
