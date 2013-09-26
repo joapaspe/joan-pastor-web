@@ -22,23 +22,25 @@
 		<!-- Fav and touch icons -->
 		<link rel="shortcut icon" href="ico/favicon.png">
 		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-43961776-1']);
+			_gaq.push(['_trackPageview']);
 
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-43961776-1']);
-		  _gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
 
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-
-	</script>
+		</script>
 	</head>
 
 	<body data-spy="scroll" data-offset="125" data-target=".navbar">
+
 		
-			<div class="container">
 
 			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="navbar-header">
@@ -50,32 +52,33 @@
 					<a class="navbar-brand" href="#">Joan Pastor</a>
 				</div>
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
-						<ul class="nav navbar-nav">
-							<li id="nav-home" class="active">
-								<a href="#home">Home</a>
-							</li>
-							<li class>
-								<a href="#publications">Publications & Projects</a>
-							</li>
-							<li class>
-								<a href="#personal">Personal Interests</a>
-							</li>
-							<li class>
-								<a href="#contact">Contact</a>
-							</li>
-							<li class>
-								<a href="#social">Social</a>
-							</li>
-						</ul>
+					<ul class="nav navbar-nav">
+						<li id="nav-home" class="active">
+							<a href="#home">Home</a>
+						</li>
+						<li class>
+							<a href="#publications">Publications & Projects</a>
+						</li>
+						<li class>
+							<a href="#personal">Personal Interests</a>
+						</li>
+						<li class>
+							<a href="#contact">Contact</a>
+						</li>
+						<li class>
+							<a href="#social">Social</a>
+						</li>
+					</ul>
 
-						<div class="pull-right navbar-text">joapaspe_at_gmail.com</div>
-						<a data-toggle="modal" href="#myModal" class="btn btn-default btn-xs pull-right navbar-text">Changelog!</a>
-					</div><!--/.nav-collapse -->
-					
-				</div>
-			
+					<div class="pull-right navbar-text">
+						joapaspe_at_gmail.com
+					</div>
+					<a data-toggle="modal" href="#myModal" class="btn btn-default btn-xs pull-right navbar-text">Changelog!</a>
+				</div><!--/.nav-collapse -->
+
+			</div>
+
 			<section id="home">
-					<div class="container">
 					<!--  Carousel - consult the Twitter Bootstrap docs at
 					http://twitter.github.com/bootstrap/javascript.html#carousel -->
 					<div id="this-carousel-id" class="carousel slide">
@@ -92,14 +95,14 @@
 								<!-- class of active since it's the first item -->
 								<img src="img/fotos/roma1.jpg" alt="" />
 								<div class="carousel-caption visible-lg">
-									
+
 									<p>
 										<h2><a href="http://www.trabhci.eu/" target="_blank">TrabHCI at Rome, 2013</a></h2>
 									</p>
 									<p>
 										Technologies to Reduce the Access Barrier in Human Computer Interaction Erasmus Intensive Programme which I have been collaborating as a teacher on handwritting recognition topic.
 									</p>
-								
+
 								</div>
 							</div>
 							<div class="item">
@@ -142,26 +145,30 @@
 						</div><!-- /.carousel-inner -->
 						<!--  Next and Previous controls below
 						href values must reference the id for this carousel -->
-						<a class="left carousel-control" href="#this-carousel-id" data-slide="prev"><span class="icon-prev"></span></a>
-						<a class="right carousel-control" href="#this-carousel-id" data-slide="next"><span class="icon-next"></span></a>
+						<a class="left carousel-control" href="#this-carousel-id" data-slide="prev"><span class="icon-prev"></a>
+						<a class="right carousel-control" href="#this-carousel-id" data-slide="next"><span class="icon-next"></a>
+
 					
+				</div>
+				
+					<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="page-header">
+							<h1>Joan Pastor Pellicer<h1>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6">
-						<div class="page-header"><h1>Joan Pastor Pellicer<h1></div>
 						<p></p>
 						<p>
 							Member of Natural Language Engineering and Pattern Recognition (<a href="http://users.dsic.upv.es/grupos/rfia/rfia.html">ELiRF</a>) Group.
 						</p>
 						<p>
 							PhD. Student at <a href="http://www.upv.es">Universitat Polit&egrave;cnica de Val&egrave;ncia</a>, <a href="http://dsic.upv.es">Departament de Sistemes Inform&agrave;tics i Computaci&oacute;.</a>
-							</p>
+						</p>
 						<p>
 							<a href="http://blogs.uji.es/hitita/">HITITA</a>: Human-assisted interactive transcription of ancient printed and handwritten documents
 						</p>
-						</div>
-					
+					</div>
+
 					<div class="col-md-6">
 						<h3>My Cv</h3>
 						<div class="row">
@@ -186,360 +193,371 @@
 								</div>
 							</div>
 						</div>
-						</div>
-			</section>
-				<hr>
-			
-				<section id="publications">
-
-					<div class="page-header">
-						<h2> Publications and Projects</h2>
-					</div>
-					<table class="table table-bordered hover">
-						<thead>
-							<tr>
-								<th>Publication</th><th></th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Joan Pastor-Pellicer, Francisco Zamora-Mart&iacute;nez, Salvador Espa&ntilde;a-Boquera and Mar&iacute;a Jos&eacute; Castro-Bleda. <b>F-Measure as the error function to train Neural Networks</b>, <i>IWANN</i>, 2013. </td>
-								<td><a target="_blank" href="http://link.springer.com/chapter/10.1007/978-3-642-38679-4_37#page-1"><img class="media-object" src="img/pdf.jpg" width="48"/></a></td>
-							</tr>
-							<tr>
-								<td>Joan Pastor, Llu&iacute;s-Felip Hurtado, Encarna Segarra, and Emilio Sanchis. <b>Language modelization
-								and categorization for voice-activated qa. </b> <i>In 16th Iberoamerican Congress on Pattern Recognition</i>, 2011. </td>
-								<td><a target="_blank" href="http://link.springer.com/chapter/10.1007/978-3-642-25085-9_56#page-1"><img class="media-object" src="img/pdf.jpg" width="48"/></a></td>
-							</tr>
-							<tr>
-								<td>Joan Pastor, Llu&iacute;s-Felip Hurtado <b>Modelado de lenguaje basado en categor&iacute;as para B&uacute;squeda de Respuesta dirigida por la Voz</b><i> Master Thesis</i>, 2011. </td><td><a target="_blank" href="http://riunet.upv.es/handle/10251/15872"><img class="media-object" src="img/pdf.jpg" width="48"/></a></td>
-							</tr>
-							
-							<tr>
-								<td>Emilio Sanchis, Llu&iacute;s-Felip Hurtado, Fernando Garc&iacute;a, Joan Pastor, Joaquin Planells, and Encarna Segarra. <b>Sistema de di&aacute;logo multimodal basado en modelos estad&iacute;sticos.</b><i>In XXVII edici&oacute;n del Congreso Anual de la Sociedad Espa&ntilde;ola para el Procesamiento del Lenguaje Natural (SEPLN)</i>,
-								2011.</td>
-								<td><a target="_blank" href="http://rua.ua.es/dspace/handle/10045/18561"><img class="media-object" src="img/pdf.jpg" width="48"/></a></td>
-							</tr>
-							<tr>
-								<td>Ecarna Segarra, Llu&iacute;s-Felip Hurtado, Jon Ander G&oacute;mez, Fernando Garc&iacute;, Joaquin Planells, Joan Pastor, Luc&iacute; Ortega, Marcos Calvo and Emilio Sanchis. <b>A prototype of a spoken dialog system based on statistical models.</b> <i>FALA 2010. VI Jornadas en Tecnolog&iacute;a del Habla and Iberian SLTech Workshop, 2010</i></td>
-								<td><a target="_blank" href="http://lorien.die.upm.es/~lapiz/rtth/JORNADAS/VI/pdfs/0054.pdf"><img class="media-object" src="img/pdf.jpg" width="48"/></a></td>
-							</tr>
-
-						</tbody>
-					</table>
-
-					<div class="page-header">
-						<h3> Projects: </h3>
-					</div>
-					<div class="row">
-						<div class="col-md-3">
-							<p>
-							<a href="https://github.com/pakozm/april-ann"> <h4>April-ANN</h4> <img src="img/april.png" class="img-rounded img-responsive" width="128px"></a>
-							</p>
-							<p>
-								April-ann toolkit (A Pattern Recognizer In Lua with Artificial Neural Networks). Is a toolkit that incorporates ANN algorithms (as dropout, stacked denoising auto-encoders, convolutional neural networks), with other pattern recognition methods as hiddem makov models (HMMs). I have been using and contributing this amazing tool during my research.
-							</p>
-						</div>
-						<div class="col-md-3 col-md-offset-1">
-							<p>
-							<a href="https://github.com/joapaspe"> <h4>My Projects at Github</h4> <img src="img/jo-github.jpg" class="img-circle img-responsive" width="128px"> </a>
-						</p>
-							<p>
-								Some personal projects and other stuff at Github.
-							</p>
-						</div>
-						<div class="col-md-3 col-md-offset-1">
-							<p>
-							<a href="https://bitbucket.org/joapaspe"> <h4>More projects at Bitbucket</h4> <img src="img/jo-bitbucket.jpg" class="img-rounded img-responsive" width="128px"> </a>
-						</p>
-							<p>
-								I've been using Bitbuckets for another projects, mostly privates.
-							</p>
-						</div>
-
 					</div>
 					<hr>
-				</section>
-				<section id="personal">
-					<div class= "page-header">
-						<h2>Personal Interests</h2>
-						
 					</div>
-					<p>
-						I enjoy solving algorithmic problems and participating in different programming contests.
-						Here it is some contests and pages that I use for training.
+					
+			</section>
+			
 
-					</p>
-
-					<div class="row">
-						<div class="col-md-3 text-center">
-							<a href="http://codeforces.com/profile/joapaspe"> <h4>Codeforces</h4> <img src="img/codeforces.png" class="img-circle img-responsive" width="256px"> </a>
-							<p>
-								Check out my profile at CODEFORCES.
-							</p>
-
-						</div>
-						<div class="col-md-3 text-center">
-							<a href="http://uhunt.felix-halim.net/id/135046"> <h4>Uva Online Judge</h4> <img src="img/uvajudge.png" class="img-rounded img-responsive" width="128px"> </a>
-							<p>
-								My uHunt at UVA online judge.
-							</p>
-
-						</div>
-						<div class="col-md-3 text-center">
-							<a href="http://www.checkio.org/profile/user/Joan/info/"> <h4>Check iO</h4> <img src="img/checkio.png" class="img-rounded img-responsive" width="256px"> </a>
-							<p>
-								CheckiO is a game world you can explore using your programming skills.
-							</p>
-
-						</div>
-						<div class="col-md-3">
-							<h4>Other contests I use to compete:</h4>
-							<ul>
-								<li>
-									<a href="https://code.google.com/codejam"><b>Google Codejam</b></a>
-								</li>
-								<li>
-									<a href="https://www.facebook.com/hackercup"><b>Facebook Hacker Cup</b></a>
-								</li>
-								<li>
-									<a href="https://contest.tuenti.net/"><b>Tuenti Challenge</b></a>
-								</li>
-							</ul>
-
-						</div>
-
-					</div>
-
-					<p>
-						I have been member of the Judges and Problem Setters for two Contests:
-						<div class="row">
-							<div class="col-md-4 col-md-offset-1 text-center">
-								<a href="http://users.dsic.upv.es/grupos/clocalprog/"> <h4>ClocalProg</h4> <img src="img/clocalprog.png" class="img-responsive"> </a>
-								<p>
-									<i>Competici&oacute;n Local de Programaci&oacute;n</i> is a local contests organized by <a href="">ETSINF</a> (<a href="">UPV</a>),
-									where Computer's Degree students participate. The winners are selected to participate on the ACM, regional contest.
-								</p>
-							</div>
-
-							<div class="col-md-4 col-md-offset-1 text-center">
-								<a href="http://www.swerc.eu"> <h4>SWERC</h4> <img src="img/icpclogo.png" class="img-responsive"> </a>
-								<p>
-									<i>Southwestern European Regional Programming Contest</i> is integrated in the ACM International Collegiate Programming Contest.
-									It draws students from colleges and universities throughout France, Italy, Portugal, Spain, Switzerland, and western Austria.
-									The winning team will advance to the ACM Programming Contest World Finals.
-								</p>
-							</div>
-						</div>
-
-						<div>
-
-						</div>
-						<div class="page-header">
-							<h3>Online Courses:</h3>
-						</div>
-						<div class="row">
-
-							<div class="col-md-6">
-
-								<div class="hero-unit">
-									<p>
-										I like to learn and discover new topics. I took some courses (MOOCs) from the platforms <a href="http://www.coursera.org">Coursera</a>
-										and <a href="http://www.udacity.com">Udacity</a>.
-									</p>
-									<p>
-										Check out my Coursera profile at:
-									</p>
-									<p class="text-center">
-										<a href="https://www.coursera.org/user/i/d4a3b9e130284f2ae2980e5c13aacd79"><img src="img/coursera.png" class="img-responsive"></a>
-									</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-
-								<h4>Courses taken:</h4>
-
-								<ul>
-									<li>
-										<a href="https://www.coursera.org/course/ml">Machine Learning</a>, December, 2011.
-									</li>
-									<li>
-										<a href="https://www.ai-class.com/">Introduciton to Artificial Intelligence</a>, December, 2011.
-									</li>
-									<li>
-										<a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis, Part I</a>, March, 2012.
-									</li>
-									<li>
-										<a href="https://www.coursera.org/course/algo2">Natural Language Processing</a>, May, 2012.
-									</li>
-									<li>
-										<a href="https://www.udacity.com/course/cs253">Web Development</a>, June, 2012.
-									</li>
-									<li>
-										<a href="https://www.coursera.org/course/algs4partI">Algorithms, Part I, </a>, August 2012.
-									</li>
-									<li>
-										<a href="https://www.coursera.org/course/neuralnets">Neural Networks for Machine Learning</a>, October, 2012.
-									</li>
-
-									<li>
-										<a href="https://www.coursera.org/course/algo2">Algorithms: Design and Analysis, Part II</a>, December, 2012.
-									</li>
-								</ul>
-							</div>
-
-						</div>
-						<hr>
-				</section>
-				<section id="contact">
-					<div class="page-header">
-						<h2>Contact</h2>
-					</div>
-					<address>
-						<strong>Departamento de Sistemes Inform&agrave;tics i Computaci&oacute;</strong>
-						<b>Edificio 1F</b>
-						<br>
-						Universitat Polit&egrave;cnica de Val&egrave;ncia
-						<br>
-						Camino de Vera s/n
-						<br>
-						46022, Valencia, Spain
-						<br>
-						<abbr title="Phone">P:</abbr> +34 963877000 <abbr title="Extension">Ext: 73566
-					</address>
-
-					<address>
-						<strong>Joan Pastor Pellicer</strong>
-						<br>
-						jpastor __AT__ dsic.upv.es
-						<br>
-						joapaspe __AT__ gmail.com
-					</address>
-
-				</section>
-				<hr>
-				<section id="social">
-					<div class="page-header">
-						<h2>Social</h2>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="g-person" data-href="//plus.google.com/114143608217887742364" data-rel="author"></div>
-
-							<!-- Place this tag after the last widget tag. -->
-							<script type="text/javascript">
-								(function() {
-									var po = document.createElement('script');
-									po.type = 'text/javascript';
-									po.async = true;
-									po.src = 'https://apis.google.com/js/plusone.js';
-									var s = document.getElementsByTagName('script')[0];
-									s.parentNode.insertBefore(po, s);
-								})();
-							</script>
-							<p>
-								<!-- Facebook Badge START --><a href="http://www.facebook.com/joapaspe" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Joan Pastor">Joan Pastor</a>
-								<br/>
-								<a href="http://www.facebook.com/joapaspe" target="_TOP" title="Joan Pastor"><img src="http://badge.facebook.com/badge/1121859428.3109.531556530.png" style="border: 0px;" /></a><!-- Facebook Badge END -->
-							</p>
-							<!-- Place this tag where you want the widget to render. -->
-						</div>
-						<div class="col-md-2">
-							<p>
-								<a href="http://es.linkedin.com/in/joapaspe"> <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Joan Pastor Pellicer's profile on LinkedIn"> </a>
-							</p>
-
-						</div>
-
-						<div class="col-md-6">
-							<a class="twitter-timeline" href="https://twitter.com/joan_batiste" data-widget-id="351015601390624769">Tweets by @joan_batiste</a>
-							<script>
-								! function(d, s, id) {
-									var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-									if (!d.getElementById(id)) {
-										js = d.createElement(s);
-										js.id = id;
-										js.src = p + "://platform.twitter.com/widgets.js";
-										fjs.parentNode.insertBefore(js, fjs);
-									}
-								}(document, "script", "twitter-wjs");
-							</script>
-
-						</div>
-					</div>
-
-				</section>
-			</div>
-		</div>
-		<hr>
-
-		<!---- Change log --->
-					<div class="container">
-			<!-- Button to trigger modal -->
-			<!-- Button trigger modal -->
-	  
-
-	  <!-- Modal -->
-	  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	    <div class="modal-dialog">
-	      <div class="modal-content">
-	        <div class="modal-header">
-	          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-	          <h3 class="modal-title">Changelog</h3>
-	        </div>
-	        <div class="modal-body">
-	        	<h3> 26/09/2013 </h3>
-	          <ul>
-  				<li>This amazing changelog has been added!</li>
-  			  </ul>
-	        </div>
-	        <div class="modal-footer">
-	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	        </div>
-	      </div><!-- /.modal-content -->
-	    </div><!-- /.modal-dialog -->
-	  </div><!-- /.modal -->
-
-		<div id="footer">
-			<div class="row">
-
+			<section id="publications">
 				<div class="container">
-					<div class="col col-md-3">
-						<a href="http://www.upv.es"><img class="img-thumbnail" src="img/UPV.jpg" ></a>
+				<div class="page-header">
+					<h2> Publications and Projects</h2>
+				</div>
+				<table class="table table-bordered hover">
+					<thead>
+						<tr>
+							<th>Publication</th><th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Joan Pastor-Pellicer, Francisco Zamora-Mart&iacute;nez, Salvador Espa&ntilde;a-Boquera and Mar&iacute;a Jos&eacute; Castro-Bleda. <b>F-Measure as the error function to train Neural Networks</b>, <i>IWANN</i>, 2013. </td>
+							<td><a target="_blank" href="http://link.springer.com/chapter/10.1007/978-3-642-38679-4_37#page-1"><img class="media-object" src="img/pdf.jpg" width="48"/></a></td>
+						</tr>
+						<tr>
+							<td>Joan Pastor, Llu&iacute;s-Felip Hurtado, Encarna Segarra, and Emilio Sanchis. <b>Language modelization
+							and categorization for voice-activated qa. </b><i>In 16th Iberoamerican Congress on Pattern Recognition</i>, 2011. </td>
+							<td><a target="_blank" href="http://link.springer.com/chapter/10.1007/978-3-642-25085-9_56#page-1"><img class="media-object" src="img/pdf.jpg" width="48"/></a></td>
+						</tr>
+						<tr>
+							<td>Joan Pastor, Llu&iacute;s-Felip Hurtado <b>Modelado de lenguaje basado en categor&iacute;as para B&uacute;squeda de Respuesta dirigida por la Voz</b><i> Master Thesis</i>, 2011. </td><td><a target="_blank" href="http://riunet.upv.es/handle/10251/15872"><img class="media-object" src="img/pdf.jpg" width="48"/></a></td>
+						</tr>
+
+						<tr>
+							<td>Emilio Sanchis, Llu&iacute;s-Felip Hurtado, Fernando Garc&iacute;a, Joan Pastor, Joaquin Planells, and Encarna Segarra. <b>Sistema de di&aacute;logo multimodal basado en modelos estad&iacute;sticos.</b><i>In XXVII edici&oacute;n del Congreso Anual de la Sociedad Espa&ntilde;ola para el Procesamiento del Lenguaje Natural (SEPLN)</i>,
+							2011.</td>
+							<td><a target="_blank" href="http://rua.ua.es/dspace/handle/10045/18561"><img class="media-object" src="img/pdf.jpg" width="48"/></a></td>
+						</tr>
+						<tr>
+							<td>Ecarna Segarra, Llu&iacute;s-Felip Hurtado, Jon Ander G&oacute;mez, Fernando Garc&iacute;, Joaquin Planells, Joan Pastor, Luc&iacute; Ortega, Marcos Calvo and Emilio Sanchis. <b>A prototype of a spoken dialog system based on statistical models.</b><i>FALA 2010. VI Jornadas en Tecnolog&iacute;a del Habla and Iberian SLTech Workshop, 2010</i></td>
+							<td><a target="_blank" href="http://lorien.die.upm.es/~lapiz/rtth/JORNADAS/VI/pdfs/0054.pdf"><img class="media-object" src="img/pdf.jpg" width="48"/></a></td>
+						</tr>
+
+					</tbody>
+				</table>
+
+				<div class="page-header">
+					<h3> Projects: </h3>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<p>
+							<a href="https://github.com/pakozm/april-ann"> <h4>April-ANN</h4> <img src="img/april.png" class="img-rounded img-responsive" width="128px"></a>
+						</p>
+						<p>
+							April-ann toolkit (A Pattern Recognizer In Lua with Artificial Neural Networks). Is a toolkit that incorporates ANN algorithms (as dropout, stacked denoising auto-encoders, convolutional neural networks), with other pattern recognition methods as hiddem makov models (HMMs). I have been using and contributing this amazing tool during my research.
+						</p>
 					</div>
-					<div class="col col-md-3 col-md-offset-1" >
-						<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-md">Changelog!</a>
-						<br>
-						<br>
-						Joan Pastor, 2013
-						<br>
-						<iframe src="http://ghbtns.com/github-btn.html?user=joapaspe&type=follow"
-						allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
-						<br>
-						
+					<div class="col-md-3 col-md-offset-1">
+						<p>
+							<a href="https://github.com/joapaspe"> <h4>My Projects at Github</h4> <img src="img/jo-github.jpg" class="img-circle img-responsive" width="128px"> </a>
+						</p>
+						<p>
+							Some personal projects and other stuff at Github.
+						</p>
 					</div>
-					<div class="col col-md-3">
-						<a href="http://www.dsic.upv.es"><img class="img-thumbnail" src="img/dsic.png"></a>
+					<div class="col-md-3 col-md-offset-1">
+						<p>
+							<a href="https://bitbucket.org/joapaspe"> <h4>More projects at Bitbucket</h4> <img src="img/jo-bitbucket.jpg" class="img-rounded img-responsive" width="128px"> </a>
+						</p>
+						<p>
+							I've been using Bitbuckets for another projects, mostly privates.
+						</p>
+					</div>
+
+				</div>
+				<hr>
+				</div>
+			</section>
+			<section id="personal">
+				<div class="container">
+				<div class= "page-header">
+					<h2>Personal Interests</h2>
+
+				</div>
+				<p>
+					I enjoy solving algorithmic problems and participating in different programming contests.
+					Here it is some contests and pages that I use for training.
+
+				</p>
+
+				<div class="row">
+					<div class="col-md-3 text-center">
+						<a href="http://codeforces.com/profile/joapaspe"> <h4>Codeforces</h4> <img src="img/codeforces.png" class="img-circle img-responsive" width="256px"> </a>
+						<p>
+							Check out my profile at CODEFORCES.
+						</p>
+
+					</div>
+					<div class="col-md-3 text-center">
+						<a href="http://uhunt.felix-halim.net/id/135046"> <h4>Uva Online Judge</h4> <img src="img/uvajudge.png" class="img-rounded img-responsive" width="128px"> </a>
+						<p>
+							My uHunt at UVA online judge.
+						</p>
+
+					</div>
+					<div class="col-md-3 text-center">
+						<a href="http://www.checkio.org/profile/user/Joan/info/"> <h4>Check iO</h4> <img src="img/checkio.png" class="img-rounded img-responsive" width="256px"> </a>
+						<p>
+							CheckiO is a game world you can explore using your programming skills.
+						</p>
+
+					</div>
+					<div class="col-md-3">
+						<h4>Other contests I use to compete:</h4>
+						<ul>
+							<li>
+								<a href="https://code.google.com/codejam"><b>Google Codejam</b></a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/hackercup"><b>Facebook Hacker Cup</b></a>
+							</li>
+							<li>
+								<a href="https://contest.tuenti.net/"><b>Tuenti Challenge</b></a>
+							</li>
+						</ul>
+
 					</div>
 
 				</div>
 
+				<p>
+					I have been member of the Judges and Problem Setters for two Contests:
+					<div class="row">
+						<div class="col-md-4 col-md-offset-1 text-center">
+							<a href="http://users.dsic.upv.es/grupos/clocalprog/"> <h4>ClocalProg</h4> <img src="img/clocalprog.png" class="img-responsive"> </a>
+							<p>
+								<i>Competici&oacute;n Local de Programaci&oacute;n</i> is a local contests organized by <a href="">ETSINF</a> (<a href="">UPV</a>),
+								where Computer's Degree students participate. The winners are selected to participate on the ACM, regional contest.
+							</p>
+						</div>
+
+						<div class="col-md-4 col-md-offset-1 text-center">
+							<a href="http://www.swerc.eu"> <h4>SWERC</h4> <img src="img/icpclogo.png" class="img-responsive"> </a>
+							<p>
+								<i>Southwestern European Regional Programming Contest</i> is integrated in the ACM International Collegiate Programming Contest.
+								It draws students from colleges and universities throughout France, Italy, Portugal, Spain, Switzerland, and western Austria.
+								The winning team will advance to the ACM Programming Contest World Finals.
+							</p>
+						</div>
+					</div>
+
+					<div>
+
+					</div>
+					<div class="page-header">
+						<h3>Online Courses:</h3>
+					</div>
+					<div class="row">
+
+						<div class="col-md-6">
+
+							<div class="hero-unit">
+								<p>
+									I like to learn and discover new topics. I took some courses (MOOCs) from the platforms <a href="http://www.coursera.org">Coursera</a>
+									and <a href="http://www.udacity.com">Udacity</a>.
+								</p>
+								<p>
+									Check out my Coursera profile at:
+								</p>
+								<p class="text-center">
+									<a href="https://www.coursera.org/user/i/d4a3b9e130284f2ae2980e5c13aacd79"><img src="img/coursera.png" class="img-responsive"></a>
+								</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+
+							<h4>Courses taken:</h4>
+
+							<ul>
+								<li>
+									<a href="https://www.coursera.org/course/ml">Machine Learning</a>, December, 2011.
+								</li>
+								<li>
+									<a href="https://www.ai-class.com/">Introduciton to Artificial Intelligence</a>, December, 2011.
+								</li>
+								<li>
+									<a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis, Part I</a>, March, 2012.
+								</li>
+								<li>
+									<a href="https://www.coursera.org/course/algo2">Natural Language Processing</a>, May, 2012.
+								</li>
+								<li>
+									<a href="https://www.udacity.com/course/cs253">Web Development</a>, June, 2012.
+								</li>
+								<li>
+									<a href="https://www.coursera.org/course/algs4partI">Algorithms, Part I, </a>, August 2012.
+								</li>
+								<li>
+									<a href="https://www.coursera.org/course/neuralnets">Neural Networks for Machine Learning</a>, October, 2012.
+								</li>
+
+								<li>
+									<a href="https://www.coursera.org/course/algo2">Algorithms: Design and Analysis, Part II</a>, December, 2012.
+								</li>
+							</ul>
+						</div>
+
+					</div>
+					<hr>
+					</div>
+			</section>
+			<section id="contact">
+				<div class="container">
+				<div class="page-header">
+					<h2>Contact</h2>
+				</div>
+				<address>
+					<strong>Departamento de Sistemes Inform&agrave;tics i Computaci&oacute;</strong>
+					<b>Edificio 1F</b>
+					<br>
+					Universitat Polit&egrave;cnica de Val&egrave;ncia
+					<br>
+					Camino de Vera s/n
+					<br>
+					46022, Valencia, Spain
+					<br>
+					<abbr title="Phone">P:</abbr> +34 963877000 <abbr title="Extension">Ext: 73566
+				</address>
+
+				<address>
+					<strong>Joan Pastor Pellicer</strong>
+					<br>
+					jpastor __AT__ dsic.upv.es
+					<br>
+					joapaspe __AT__ gmail.com
+				</address>
+				<hr>
 			</div>
+			</section>
 			
+			<section id="social">
+				<div class="container">
+				<div class="page-header">
+					<h2>Social</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="g-person" data-href="//plus.google.com/114143608217887742364" data-rel="author"></div>
+
+						<!-- Place this tag after the last widget tag. -->
+						<script type="text/javascript">
+							(function() {
+								var po = document.createElement('script');
+								po.type = 'text/javascript';
+								po.async = true;
+								po.src = 'https://apis.google.com/js/plusone.js';
+								var s = document.getElementsByTagName('script')[0];
+								s.parentNode.insertBefore(po, s);
+							})();
+						</script>
+						<p>
+							<!-- Facebook Badge START --><a href="http://www.facebook.com/joapaspe" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Joan Pastor">Joan Pastor</a>
+							<br/>
+							<a href="http://www.facebook.com/joapaspe" target="_TOP" title="Joan Pastor"><img src="http://badge.facebook.com/badge/1121859428.3109.531556530.png" style="border: 0px;" /></a><!-- Facebook Badge END -->
+						</p>
+						<!-- Place this tag where you want the widget to render. -->
+					</div>
+					<div class="col-md-2">
+						<p>
+							<a href="http://es.linkedin.com/in/joapaspe"> <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Joan Pastor Pellicer's profile on LinkedIn"> </a>
+						</p>
+
+					</div>
+
+					<div class="col-md-6">
+						<a class="twitter-timeline" href="https://twitter.com/joan_batiste" data-widget-id="351015601390624769">Tweets by @joan_batiste</a>
+						<script>
+							! function(d, s, id) {
+								var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+								if (!d.getElementById(id)) {
+									js = d.createElement(s);
+									js.id = id;
+									js.src = p + "://platform.twitter.com/widgets.js";
+									fjs.parentNode.insertBefore(js, fjs);
+								}
+							}(document, "script", "twitter-wjs");
+						</script>
+
+					</div>
+				</div>
+			</div>
+			</section>
 		
+		<hr>
+		<!---- Change log --->
+		<!-- Button to trigger modal -->
+		<!-- Button trigger modal -->
 
-			<!-- /container -->
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+							&times;
+						</button>
+						<h3 class="modal-title">Changelog</h3>
+					</div>
+					<div class="modal-body">
+						<h3> 26/09/2013 </h3>
+						<ul>
+							<li>
+								This amazing changelog has been added!
+							</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">
+							Close
+						</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
 
-			<!-- Le javascript
-			================================================== -->
-			<!-- Placed at the end of the document so the pages load faster -->
-			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-			<script>
-				window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
-			</script>
-			<script src="js/bootstrap.js"></script>
-			<script src="js/jquery.smooth-scroll.min.js"></script>
-			<script src="js/joan.js"></script>
-	
+		<div class="container">
+
+			<div id="footer">
+				<div class="row">
+
+					<div class="container">
+						<div class="col col-md-3">
+							<a href="http://www.upv.es"><img class="img-thumbnail" src="img/UPV.jpg" ></a>
+						</div>
+						<div class="col col-md-3 col-md-offset-1" >
+							<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-md">Changelog!</a>
+							<br>
+							<br>
+							Joan Pastor, 2013
+							<br>
+							<iframe src="http://ghbtns.com/github-btn.html?user=joapaspe&type=follow"
+							allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
+							<br>
+
+						</div>
+						<div class="col col-md-3">
+							<a href="http://www.dsic.upv.es"><img class="img-thumbnail" src="img/dsic.png"></a>
+						</div>
+
+					</div>
+
+				</div>
+
+				<!-- /container -->
+
+				<!-- Le javascript
+				================================================== -->
+				<!-- Placed at the end of the document so the pages load faster -->
+				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+				<script>
+					window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
+				</script>
+				<script src="js/bootstrap.js"></script>
+				<script src="js/jquery.smooth-scroll.min.js"></script>
+				<script src="js/joan.js"></script>
+
 	</body>
 </html>
