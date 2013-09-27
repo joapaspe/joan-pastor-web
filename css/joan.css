@@ -13,6 +13,9 @@ body {
 	margin-top: 10px;
 
 }
+
+.carousel-inner > .item > img { margin: 0 auto; }
+
 .carousel-caption{
   max-width: 550px;
   
