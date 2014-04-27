@@ -1,0 +1,27 @@
+<div class="row" ng-controller="HomeCtrl">
+  <div class="col-md-6 col-md-offset-1">
+    <carousel interval="myInterval">
+      <slide ng-repeat="picture in pictures" active="picture.active">
+        <img ng-src="{{picture.src}}" style="margin:auto;">
+        <div class="carousel-caption">
+          <h2><a href="{{picture.link}}" target="_blank">{{picture.title}}</a></h2>
+        </div>
+      </slide>
+    </carousel>
+  </div>
+  <div class="col-md-4">
+    <div class="page-header">
+      <h1>Joan Pastor Pellicer<h1>
+        </div>
+        <p></p>
+        <p>
+          Member of Natural Language Engineering and Pattern Recognition (<a href="http://users.dsic.upv.es/grupos/rfia/rfia.html">ELiRF</a>) Group.
+        </p>
+        <p>
+          PhD. Student at <a href="http://www.upv.es">Universitat Polit&egrave;cnica de Val&egrave;ncia</a>, <a href="http://dsic.upv.es">Departament de Sistemes Inform&agrave;tics i Computaci&oacute;.</a>
+        </p>
+        <p>
+          <a href="http://blogs.uji.es/hitita/">HITITA</a>: Human-assisted interactive transcription of ancient printed and handwritten documents
+        </p>
+      </div>
+</div>
