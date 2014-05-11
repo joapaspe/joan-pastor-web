@@ -12,6 +12,16 @@ angular.module('joanPastorWebApp')
         { id: "home",
          view: "views/home.html",
          title: "Home"
-        }
+        },
+      {
+       id:'contact',
+        view: 'views/contact.html',
+        title: 'Contact'
+      },
+      {
+       id:'publications',
+        view: 'views/publications.html',
+        title: 'Publications and projects'
+      }
     ]
   });

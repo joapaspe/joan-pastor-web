@@ -1,0 +1,53 @@
+<div class="container" ng-controller="PublicationsCtrl">
+  <div class="page-header">
+    <h2> Publications and Projects</h2>
+  </div>
+  <table class="table table-bordered hover">
+    <thead>
+      <tr>
+        <th>Publication</th><th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="publication in publications">
+        <td>{{publication.authors}}
+          <b>{{publication.title}}</b>
+          <i>{{publication.proceeding}}</i>,
+            {{publication.year}}
+        </td>
+        <td><a target="_blank" href="{{publication.url}}"><img class="media-object" src="images/pdf.jpg" width="48"/></a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="page-header">
+    <h3> Projects: </h3>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <p>
+        <a href="https://github.com/pakozm/april-ann"> <h4>April-ANN</h4> <img src="images/april.png" class="img-rounded img-responsive" width="128px"></a>
+      </p>
+      <p>
+        April-ann toolkit (A Pattern Recognizer In Lua with Artificial Neural Networks). Is a toolkit that incorporates ANN algorithms (as dropout, stacked denoising auto-encoders, convolutional neural networks), with other pattern recognition methods as hiddem makov models (HMMs). I have been using and contributing this amazing tool during my research.
+      </p>
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+      <p>
+        <a href="https://github.com/joapaspe"> <h4>My Projects at Github</h4> <img src="images/jo-github.jpg" class="img-circle img-responsive" width="128px"> </a>
+      </p>
+      <p>
+        Some personal projects and other stuff at Github.
+      </p>
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+      <p>
+        <a href="https://bitbucket.org/joapaspe"> <h4>More projects at Bitbucket</h4> <img src="img/jo-bitbucket.jpg" class="img-rounded img-responsive" width="128px"> </a>
+      </p>
+      <p>
+        I've been using Bitbuckets for another projects, mostly privates.
+      </p>
+    </div>
+  </div>
+  <hr>
+</div>
