@@ -1,0 +1,117 @@
+<div class="container" ng-controller="PersonalCtrl">
+  <div class= "page-header">
+    <h2>Personal Interests</h2>
+  </div>
+  <p>
+    I enjoy solving algorithmic problems and participating in different programming contests.
+    Here it is some contests and pages that I use for training.
+  </p>
+  <div class="row">
+    <div class="col-md-3 text-center">
+      <a href="http://codeforces.com/profile/joapaspe"> <h4>Codeforces</h4> <img src="images/codeforces.png" class="img-circle img-responsive" width="256px"> </a>
+      <p>
+        Check out my profile at CODEFORCES.
+      </p>
+
+    </div>
+    <div class="col-md-3 text-center">
+      <a href="http://uhunt.felix-halim.net/id/135046"> <h4>Uva Online Judge</h4> <img src="images/uvajudge.png" class="img-rounded img-responsive" width="128px"> </a>
+      <p>
+        My uHunt at UVA online judge.
+      </p>
+
+    </div>
+    <div class="col-md-3 text-center">
+      <a href="http://www.checkio.org/profile/user/Joan/info/"> <h4>Check iO</h4> <img src="images/checkio.png" class="img-rounded img-responsive" width="256px"> </a>
+      <p>
+        CheckIO is a game world you can explore using your programming skills.
+      </p>
+
+    </div>
+    <div class="col-md-3">
+      <h4>Other contests I use to compete:</h4>
+      <ul>
+        <li>
+          <a href="https://code.google.com/codejam"><b>Google Codejam</b></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/hackercup"><b>Facebook Hacker Cup</b></a>
+        </li>
+        <li>
+          <a href="https://contest.tuenti.net/"><b>Tuenti Challenge</b></a>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+
+  I have been member of the Judges and Problem Setters for two Contests:
+  <div class="row">
+    <div class="col-md-4 col-md-offset-1 text-center">
+      <a href="https://clocalprog.dsic.upv.es"> <h4>ClocalProg</h4> <img src="images/clocalprog.png" class="img-responsive"> </a>
+
+      <p>
+        <i>Competici&oacute;n Local de Programaci&oacute;n</i> is a local contests organized by <a href="">ETSINF</a> (<a href="">UPV</a>),
+        where Computer's Degree students participate. The winners are selected to participate on the ACM, regional contest.
+
+      </p>
+      <span class="label label-info">2011, 2012, 2013 editions</span>
+    </div>
+
+    <div class="col-md-4 col-md-offset-1 text-center">
+      <a href="http://www.swerc.eu"> <h4>SWERC</h4> <img src="images/icpclogo.png" class="img-responsive"> </a>
+      <span class="label label-info">2013, 2014 editions</span>
+      <p>
+        <i>Southwestern European Regional Programming Contest</i> is integrated in the ACM International Collegiate Programming Contest.
+        It draws students from colleges and universities throughout France, Italy, Portugal, Spain, Switzerland, and western Austria.
+        The winning team will advance to the ACM Programming Contest World Finals.
+      </p>
+    </div>
+  </div>
+
+  <div class="page-header">
+    <h3>Online Courses:</h3>
+  </div>
+  <div class="row">
+
+    <div class="col-md-6">
+
+      <div class="hero-unit">
+        <p>
+          I like to learn and discover new topics. I took some courses (MOOCs) from the platforms <a href="http://www.coursera.org">Coursera</a>
+          and <a href="http://www.udacity.com">Udacity</a>.
+        </p>
+        <p>
+          Check out my Coursera profile at:
+        </p>
+        <p class="text-center">
+          <a href="https://www.coursera.org/user/i/d4a3b9e130284f2ae2980e5c13aacd79"><img src="images/coursera.png" class="img-responsive"></a>
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6">
+
+      <h4>Courses taken:</h4>
+      <ul>
+        <li ng-repeat="course in courses">
+          <a href={{course.url}}>{{course.title}}</a>, {{course.date}}.
+        </li>
+      </ul>
+    </div>
+  <hr>
+  <h2> Sports: </h2>
+  <p>  
+  I like to spend some time doing sports. After work I use to join to the Athletism Club at the UPV and swim on the swimming pool. I like to run in popular races, and I am looking forward to run my first marathon this year. In summer I love to enjoy beach volleyball with my colleagues!
+  </p>
+  <div class="row">
+    <div class="col-md-4">
+      <img class="img-responsive" src="pictures/runners.jpg"/>
+    </div>
+    <div class="col-md-8">
+      <iframe src="http://www.endomondo.com/embed/user/summary?id=3586014&sport=0&measure=0&zone=Gp0100_CPH&width=680&height=217" width="680" height="217" frameborder="0" scrolling="no" ></iframe>
+    </div>
+  </div>			
+
+</div>

@@ -7,12 +7,11 @@
     </button>
     <a class="navbar-brand" href="#">Joan Pastor</a>
   </div>
-  <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav">
-      <li ng-repeat="section in sections" id="nav-home" class="active">
-        <a href="#{{section.id}}">{{section.title}}</a>
+  <div class="collapse navbar-collapse navbar-menu">
+    <ul class="nav navbar-nav ">
+      <li ng-repeat="section in sections" id="nav-home">
+        <a href="#{{section.id}}" target="_self">{{section.title}}</a>
       </li>
-
     </ul>
 
     <div class="pull-right navbar-text">
@@ -22,9 +21,41 @@
   </div><!--/.nav-collapse -->
 </div>
 
-<div class>
-  <section ng-repeat="section in sections">
+
+<div class="main">
+  <section ng-repeat="section in sections" id="{{section.id}}">
     <div ng-include="section.view">
     </div>
-    </section>
+  </section>
+</div>
+
+<div ng-include="changelog"></div>
+<hr>
+<div class="container">
+  <div id="footer">
+    <div class="row">
+      <div class="container">
+        <div class="col col-md-3">
+          <a href="http://www.upv.es"><img class="img-thumbnail" src="images/UPV.jpg" ></a>
+        </div>
+        <div class="col col-md-3 col-md-offset-1" >
+          <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-md">Changelog!</a>
+          <br>
+          <br>
+          Joan Pastor, 2013
+          <br>
+          <iframe src="http://ghbtns.com/github-btn.html?user=joapaspe&type=follow"
+                  allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
+          <br>
+
+        </div>
+        <div class="col col-md-3">
+          <a href="http://www.dsic.upv.es"><img class="img-thumbnail" src="images/dsic.png"></a>
+        </div>
+
+      </div>
+
+    </div>
+  
+  </div>
 </div>

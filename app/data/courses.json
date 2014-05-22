@@ -1,0 +1,37 @@
+[
+  {
+  "title": "Machine Learning",
+  "date": "December, 2011",
+  "url": "https://www.coursera.org/course/ml"
+  },
+  {
+  "title": "ALgorithms: Design and Analysis, Part I",
+  "date": "March, 2012",
+  "url": "https://www.coursera.org/course/algo"
+  },
+  {
+  "title": "Natural Language Processing",
+  "date": "May, 2012",
+  "url": "https://www.coursera.org/course/nlp"
+  },
+  {
+  "title": "Web Development",
+  "date": "June, 2012",
+  "url": "https://www.udacity.com/course/cs253"
+  },
+  {
+  "title": "Algorithms Part I",
+  "date": "June, 2012",
+  "url": "https://www.coursera.org/course/algs4partI"
+  },
+  {
+  "title": "Neural Networks for Machine Learning",
+  "date": "October, 2012",
+  "url": "https://www.coursera.org/course/neuralnets"
+  },
+  {
+  "title": "Algorithms Part I",
+  "date": "June, 2012",
+  "url": "https://www.coursera.org/course/algo2"
+  }
+]

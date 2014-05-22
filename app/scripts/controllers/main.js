@@ -22,6 +22,21 @@ angular.module('joanPastorWebApp')
        id:'publications',
         view: 'views/publications.html',
         title: 'Publications and projects'
-      }
-    ]
+      },
+      {
+        id:'personal',
+        view: 'views/personal.html',
+        title: 'Personal Interests'
+      },
+      {
+        id:'social',
+        view: 'views/social.html',
+        title: 'Social'
+      },
+      
+    ];
+      
+  $scope.changelog ="views/changelog.html";
+  $(".body").scrollspy({target: '.navbar-menu'});  
+    
   });
