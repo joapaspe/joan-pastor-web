@@ -4,7 +4,8 @@ angular
   .module('joanPastorWebApp', [
     'ngResource',
     'ngRoute',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'duScroll',
   ])
   .config(function ($routeProvider) {
     $routeProvider

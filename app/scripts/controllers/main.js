@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('joanPastorWebApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', function ($scope,$document) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -34,9 +34,6 @@ angular.module('joanPastorWebApp')
         title: 'Social'
       },
       
-    ];
+    ];  
       
-  $scope.changelog ="views/changelog.html";
-  $(".body").scrollspy({target: '.navbar-menu'});  
-    
   });

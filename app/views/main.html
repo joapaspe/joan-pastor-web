@@ -9,8 +9,8 @@
   </div>
   <div class="collapse navbar-collapse navbar-menu">
     <ul class="nav navbar-nav ">
-      <li ng-repeat="section in sections" id="nav-home">
-        <a href="#{{section.id}}" target="_self">{{section.title}}</a>
+      <li ng-repeat="section in sections" du-scrollspy="{{section.id}}" offset="54" id="nav-home">
+        <a href="#{{section.id}}" target="_self" du-smooth-scroll offset="54">{{section.title}}</a>
       </li>
     </ul>
 
@@ -47,7 +47,6 @@
           <iframe src="http://ghbtns.com/github-btn.html?user=joapaspe&type=follow"
                   allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
           <br>
-
         </div>
         <div class="col col-md-3">
           <a href="http://www.dsic.upv.es"><img class="img-thumbnail" src="images/dsic.png"></a>
