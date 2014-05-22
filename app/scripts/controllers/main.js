@@ -35,5 +35,5 @@ angular.module('joanPastorWebApp')
       },
       
     ];  
-      
+  $scope.changelog = "views/changelog.html";
   });
