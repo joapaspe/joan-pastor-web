@@ -16,4 +16,8 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-  });
+  }).filter('html',function($sce){
+    return function(input){
+        return $sce.trustAsHtml(input);
+    }
+});
