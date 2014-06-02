@@ -1,35 +1,35 @@
 [
   {
-  "authors": "Joan Pastor-Pellicer, Francisco Zamora-Martínez, Salvador España-Boquera and María José Castro-Bleda.",
+  "authors": "Joan Pastor-Pellicer, Francisco Zamora-Mart&iacute;nez, Salvador España-Boquera and Mar&iacute;a Jos&eacute; Castro-Bleda.",
   "title": "F-Measure as the error function to train Neural Networks",
   "proceedings": "IWANN",
   "year"  : 2013,
   "url": "http://link.springer.com/chapter/10.1007/978-3-642-38679-4_37#page-1"
   },
   {
-    "authors": "Joan Pastor, Lluís-Felip Hurtado, Encarna Segarra, and Emilio Sanchis.",
+    "authors": "Joan Pastor, Llu&iacute;s-Felip Hurtado, Encarna Segarra, and Emilio Sanchis.",
     "title": "Language modelization and categorization for voice-activated QA.",
     "proceedings": "In 16th Iberoamerican Congress on Pattern Recognition",
     "year": 2011,
     "url": "http://link.springer.com/chapter/10.1007/978-3-642-25085-9_56#page-1"
   },
   {
-   "authors": "Joan Pastor, Lluís-Felip Hurtado",
-   "title": "Modelado de lenguaje basado en categorías para Búsqueda de Respuesta dirigida por la Voz",
+   "authors": "Joan Pastor, Llu&iacute;s-Felip Hurtado",
+   "title": "Modelado de lenguaje basado en categor&iacute;as para Búsqueda de Respuesta dirigida por la Voz",
    "proceedings": "Master Thesis",
    "year": "2011",
    "url": "http://riunet.upv.es/handle/10251/15872"
   },
   {
-    "authors": "Emilio Sanchis, Lluís-Felip Hurtado, Fernando García, Joan Pastor, Joaquin Planells, and Encarna Segarra.",
-    "title": "Sistema de diálogo multimodal basado en modelos estadísticos",
-    "proceedings": "In XXVII edición del Congreso Anual de la Sociedad Española para el Procesamiento del Lenguaje Natural (SEPLN)",
+    "authors": "Emilio Sanchis, Llu&iacute;s-Felip Hurtado, Fernando Garc&iacute;a, Joan Pastor, Joaquin Planells, and Encarna Segarra.",
+    "title": "Sistema de di&aacute;logo multimodal basado en modelos estad&iacute;sticos",
+    "proceedings": "In XXVII edici&oacute;n del Congreso Anual de la Sociedad Española para el Procesamiento del Lenguaje Natural (SEPLN)",
     "year": 2011,
     "url": "http://rua.ua.es/dspace/handle/10045/18561"
   },
   {
-    "authors": "Encarna Segarra, Lluís-Felip Hurtado, Jon Ander Gómez, Fernando García, Joaquin Planells, Joan Pastor, Lucí Ortega, Marcos Calvo and Emilio Sanchis.",
-    "title": "A prototype of a spoken dialog system based on statistical models.FALA 2010. VI Jornadas en Tecnología del Habla and Iberian SLTech Workshop",
+    "authors": "Encarna Segarra, Llu&iacute;s-Felip Hurtado, Jon Ander G&oacute;mez, Fernando Garc&iacute;a, Joaquin Planells, Joan Pastor, Luc&iacute; Ortega, Marcos Calvo and Emilio Sanchis.",
+    "title": "A prototype of a spoken dialog system based on statistical models.FALA 2010. VI Jornadas en Tecnolog&iacute;a del Habla and Iberian SLTech Workshop",
     "year": 2010,
     "url": "http://lorien.die.upm.es/~lapiz/rtth/JORNADAS/VI/pdfs/0054.pdf"
   }

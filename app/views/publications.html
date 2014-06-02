@@ -10,9 +10,10 @@
     </thead>
     <tbody>
       <tr ng-repeat="publication in publications">
-        <td>{{publication.authors}}
-          <b>{{publication.title}}</b>
-          <i>{{publication.proceeding}}</i>,
+        <td> <span ng-bind-html="publication.authors | html"></span>
+          
+          <b ng-bind-html="publication.title | html"></b>
+          <i ng-bind-html="publication.proceeding | html"></i>,
             {{publication.year}}
         </td>
         <td><a target="_blank" href="{{publication.url}}"><img class="media-object" src="images/pdf.jpg" width="48"/></a></td>
