@@ -9,7 +9,7 @@ angular.module('joanPastorWebApp')
     ];
       
     $scope.sections = [
-        { id: "home",
+      /*  { id: "home",
          view: "views/home.html",
          title: "Home"
         },
@@ -18,11 +18,19 @@ angular.module('joanPastorWebApp')
         view: 'views/contact.html',
         title: 'Contact'
       },
-      {
+      */
+      /*{
        id:'publications',
         view: 'views/publications.html',
         title: 'Publications and projects'
       },
+      */
+        {
+            id: 'phd',
+            title: 'PhD',
+            view: 'views/phd.html'
+
+        },
       {
         id:'personal',
         view: 'views/personal.html',
