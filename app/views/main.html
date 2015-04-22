@@ -1,69 +1,62 @@
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Joan Pastor</a>
+  </div>
+  <div class="collapse navbar-collapse navbar-menu">
+    <ul class="nav navbar-nav ">
+      <li ng-repeat="section in sections" du-scrollspy="{{section.id}}" offset="54" id="nav-home">
+        <a href="#{{section.id}}" target="_self" du-smooth-scroll offset="54">{{section.title}}</a>
+      </li>
+    </ul>
+
+    <div class="pull-right navbar-text">
+      joapaspe_at_gmail.com
+    </div>
+    <a data-toggle="modal" data-target="#myModal" class="btn btn-link btn-xs pull-right navbar-text">About this page</a>
+  </div><!--/.nav-collapse -->
+</nav>
 <header>
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Joan Pastor</a>
-    </div>
-    <div class="collapse navbar-collapse navbar-menu">
-      <ul class="nav navbar-nav ">
-        <li ng-repeat="section in sections" du-scrollspy="{{section.id}}" offset="54" id="nav-home">
-          <a href="#{{section.id}}" target="_self" du-smooth-scroll offset="54">{{section.title}}</a>
-        </li>
-      </ul>
-
-      <div class="pull-right navbar-text">
-        joapaspe_at_gmail.com
-      </div>
-      <a data-toggle="modal" data-target="#myModal" class="btn btn-link btn-xs pull-right navbar-text">Changelog!</a>
-    </div><!--/.nav-collapse -->
-  </nav>
-
   <div class="home">
-    <div class="row">
-      <!--<div class="col-md-6 col-md-offset-1" style="height: 320px">
-        <carousel interval="myInterval">
-          <slide ng-repeat="picture in pictures" active="picture.active">
-            <img ng-src="{{picture.src}}" style="margin:auto;">
-            <div class="carousel-caption">
-              <h2><a href="{{picture.link}}" target="_blank">{{picture.title}}</a></h2>
-            </div>
-          </slide>
-        </carousel>
-      </div>-->
+      <div class="text-center">
 
-      <div class="col-lg-offset-2 col-md-8 header-content-inner">
-
-
+        <div class="my-name">
           <h1>Joan Pastor Pellicer</h1>
-
-        <p></p>
-        <p>
+        </div>
+        <h4>
           Member of Natural Language Engineering and Pattern Recognition (<a href="http://users.dsic.upv.es/grupos/rfia/rfia.html">ELiRF</a>) Group.
-        </p>
-        <p>
+        </h4>
+        <h4>
+
           PhD. Student at <a href="http://www.upv.es">Universitat Polit&egrave;cnica de Val&egrave;ncia</a>, <a href="http://dsic.upv.es">Departament de Sistemes Inform&agrave;tics i Computaci&oacute;.</a>
+        </h4>
+        <h4>
+          Working on <a href="http://blogs.uji.es/hitita/">HITITA</a>: Human-assisted interactive transcription of ancient printed and handwritten documents
+        </h4>
         </p>
-        <p>
-          <a href="http://blogs.uji.es/hitita/">HITITA</a>: Human-assisted interactive transcription of ancient printed and handwritten documents
-        </p>
-      </div>
+        </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-offset-4 col-md-4">
-        <h3>Do you wanna hire me?</h3>
+    <div class="text-center">
+        <h2>Do you wanna hire me?</h2>
+      </div>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-offset-2 col-md-3">
             <a href="files/joan-pastor-cv-en.pdf" class="btn btn-primary btn-md">Check my CV</a>
             <p>
               <a href="files/joan-pastor-cv.pdf">and in spanish too...</a>
             </p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-2">
+            <a href="#">
+              <i class="fa fa-linkedin fa-lg fa-3x"></i>
+            </a>
+          </div>
+          <div class="col-md-3">
             <address>
               jpastor __AT__ dsic.upv.es
               <br>
@@ -76,7 +69,7 @@
   </div>
 </header>
 <div class="main">
-  <section ng-repeat="section in sections" id="{{section.id}}">
+  <section ng-repeat="section in sections" id="{{section.id}}" class="{{section.style}}">
     <div ng-include="section.view">
     </div>
   </section>
@@ -88,26 +81,10 @@
   <div id="footer">
     <div class="row">
       <div class="container">
-        <div class="col col-md-3">
-          <a href="http://www.upv.es"><img class="img-thumbnail" src="images/UPV.jpg" ></a>
+        <div class="col-md-offset-5 col-md-4 call-to-action" >
+          <h2>Joan Pastor, 2015</h2>
         </div>
-        <div class="col col-md-3 col-md-offset-1" >
-          <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-md">Changelog!</a>
-          <br>
-          <br>
-          Joan Pastor, 2013
-          <br>
-          <iframe src="http://ghbtns.com/github-btn.html?user=joapaspe&type=follow"
-                  allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
-          <br>
-        </div>
-        <div class="col col-md-3">
-          <a href="http://www.dsic.upv.es"><img class="img-thumbnail" src="images/dsic.png"></a>
-        </div>
-
       </div>
-
     </div>
-
   </div>
 </div>

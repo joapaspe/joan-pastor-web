@@ -1,6 +1,6 @@
-<div class="container" ng-controller="PublicationsCtrl">
+<div ng-controller="PublicationsCtrl">
   <div class="page-header">
-    <h2> Publications and Projects</h2>
+    <h2> Publications</h2>
   </div>
   <table class="table table-bordered hover">
     <thead>
@@ -11,7 +11,6 @@
     <tbody>
       <tr ng-repeat="publication in publications">
         <td> <span ng-bind-html="publication.authors | html"></span>
-          
           <b ng-bind-html="publication.title | html"></b>
           <i ng-bind-html="publication.proceeding | html"></i>,
             {{publication.year}}
@@ -21,7 +20,7 @@
     </tbody>
   </table>
 
-  <div class="page-header">
+  <!--<div class="page-header">
     <h3> Projects: </h3>
   </div>
   <div class="row">
@@ -52,5 +51,5 @@
       </p>
     </div>
   </div>
-  <hr>
+  <hr>-->
 </div>

@@ -1,8 +1,9 @@
+<div class="container">
 <div class="row">
-    <div class="visible-md visible-lg col-md-offset-1 col-md-5">
-        <img src="images/phd.png" class="img-responsive" alt="Responsive image">
+    <div class="visible-md visible-lg  col-md-6">
+        <img src="images/phd.png" class="img-responsive" alt="Phd">
     </div>
-    <div class="col-xs-offset-1 col-xs-4">
+    <div class="col-sm-12 col-md-6">
         <h2>About my PhD</h2>
         <p>I am focusing my research in text document preprocessing.</p>
         <p>I work on the previous stages before the text OCR, specially in Ancient and Medieval documents which presents more complex data.</p>
@@ -14,5 +15,25 @@
             <li>Text Line Preprocessing and Normalization</li>
             <li>A bit of decoding...</li>
         </ul>
+        <button type="button" class="center-block btn btn-primary btn-md" data-toggle="modal" data-target="#pubModal">
+            My publications
+        </button>
+    </div>
+
+</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="pubModal" tabindex="-1" role="dialog" aria-labelledby="pubLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="container-fluid">
+                <div ng-include="'views/publications.html'"></div>
+
+                </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
     </div>
 </div>

@@ -88,4 +88,12 @@ body {
   }
 }
 
+.my-name h1{
+  color:#f05f40;
+  font-size: 65px;
+  padding-bottom: 50px;
+}
 
+.home a {
+  color: #eee;
+}

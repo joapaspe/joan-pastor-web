@@ -31,10 +31,25 @@ angular.module('joanPastorWebApp')
             view: 'views/phd.html'
 
         },
+        {
+            id: 'project',
+            title: 'Projects',
+            view: 'views/projects.html',
+            style: 'bg-primary'
+
+        },
+        {
+            id: 'coding',
+            title: 'Programming',
+            view: 'views/coding.html'
+            //style: 'bg-primary'
+
+        },
       {
         id:'personal',
         view: 'views/personal.html',
-        title: 'Personal Interests'
+        title: 'Personal Interests',
+          style: 'bg-primary'
       },
       {
         id:'social',
@@ -44,4 +59,11 @@ angular.module('joanPastorWebApp')
       
     ];  
   $scope.changelog = "views/changelog.html";
+        // Offset for Main Navigation
+        $('#mainNav').affix({
+            offset: {
+                top: 100
+            }
+        })
   });
+
