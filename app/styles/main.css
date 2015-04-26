@@ -97,3 +97,10 @@ body {
 .home a {
   color: #eee;
 }
+
+.navbar-default .btn-link{
+  color:#ec5418;
+}
+.navbar-default .navbar-text{
+  color:#ec5418;
+}

@@ -81,7 +81,9 @@ angular.module('joanPastorWebApp')
             plus: 'https://plus.google.com/114143608217887742364/posts',
             linkedin: 'https://www.linkedin.com/in/joapaspe',
             facebook: 'https://www.facebook.com/joapaspe',
-            twitter: 'https://twitter.com/joan_batiste'
+            twitter: 'https://twitter.com/joan_batiste',
+            coursera: 'https://www.coursera.org/user/i/694ef7729912412d9263dcd905bb731b',
+            webcode:"https://github.com/joapaspe/joan-pastor-web"
 
         }
     });
