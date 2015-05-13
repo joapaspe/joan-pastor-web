@@ -6,23 +6,22 @@
 
       <div class="hero-unit">
         <p>
-          I like to learn and discover new topics. I took some courses (MOOCs) from the platforms <a href="http://www.coursera.org">Coursera</a>
+          I I like to learn and discover new topics. I took some courses (MOOCs) from the platforms <a href="http://www.coursera.org">Coursera</a>
           and <a href="http://www.udacity.com">Udacity</a>.
         </p>
         <p>
           Check out my Coursera profile at:
         </p>
         <p class="text-center">
-          <a href="https://www.coursera.org/user/i/d4a3b9e130284f2ae2980e5c13aacd79"><img src="images/coursera.png" class="img-responsive"></a>
+          <a href="{{urls.coursera}}" target="_blank"><img src="images/coursera.png" class="img-responsive"></a>
         </p>
       </div>
     </div>
     <div class="col-md-6">
 
-      <h4>Courses taken:</h4>
       <ul>
         <li ng-repeat="course in courses">
-          <a href={{course.url}}>{{course.title}}</a>, {{course.date}}.
+          <a href={{course.url}} target="_blank">{{course.title}}</a>, {{course.date}}.
         </li>
       </ul>
     </div>
