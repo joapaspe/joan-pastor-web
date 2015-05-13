@@ -39,6 +39,7 @@ For building with grunt run the command `grunt build`, this generate the dist fo
 No problem bro, just clone or fork the projects and fill the gaps with your CV. Take what you want and I hope you could get new ideas.
 
 > This webpage it's ugly. Colors are blinding, the layout it's awful.
+
 I know :( Comments where are welcome to improve it.
 
 
