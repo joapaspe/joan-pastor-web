@@ -1,5 +1,12 @@
 [
   {
+    "title": "Handwriting Normalization by Zone Estimation UsingHMM/ANNs",
+    "authors": "Joan Pastor-Pellicer, Salvador Espa~na-Boquera, Francisco Zamora-Martinez, and Maria Jose Castro-Bleda.",
+    "proceedings": "Frontiers in Handwriting Recognition (ICFHR), 2014",
+    "year":	 2014,
+    "url": "http://people.sabanciuniv.edu/berrin/cs581/Papers/icfhr2014/data/4334a633.pdf"
+  },
+  {
   "authors": "Joan Pastor-Pellicer, Francisco Zamora-Mart&iacute;nez, Salvador España-Boquera and Mar&iacute;a Jos&eacute; Castro-Bleda.",
   "title": "F-Measure as the error function to train Neural Networks",
   "proceedings": "IWANN",
