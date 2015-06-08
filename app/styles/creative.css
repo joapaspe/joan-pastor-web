@@ -185,7 +185,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../styles/pano.jpg);
+    background-image: url(pano.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
