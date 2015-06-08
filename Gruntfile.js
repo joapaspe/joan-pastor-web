@@ -13,7 +13,7 @@ module.exports = function (grunt) {
 
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
-
+  require('load-grunt-tasks')(grunt);
   // Define the configuration for all the tasks
   grunt.initConfig({
 
@@ -278,9 +278,13 @@ module.exports = function (grunt) {
             'styles/*',
             'pictures/*',
             'files/*',
-            'data/*'
+            'data/*',
+            //'bower_components/**'
+            //'bower_components/{,*/,*/*,*/*/*}.{.js,.css}'
+
           ]
-        }, {
+        },
+          {
           expand: true,
           cwd: '.tmp/images',
           dest: '<%= yeoman.dist %>/images',
