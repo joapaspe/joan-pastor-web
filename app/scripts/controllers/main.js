@@ -59,12 +59,7 @@ angular.module('joanPastorWebApp')
 
         ];
         $scope.changelog = "views/changelog.html";
-        // Offset for Main Navigation
-        $('#mainNav').affix({
-            offset: {
-                top: 100
-            }
-        })
+
 
         $scope.urls = {
             cv: 'files/joan-pastor-cv.pdf',
@@ -83,8 +78,19 @@ angular.module('joanPastorWebApp')
             facebook: 'https://www.facebook.com/joapaspe',
             twitter: 'https://twitter.com/joan_batiste',
             coursera: 'https://www.coursera.org/user/i/694ef7729912412d9263dcd905bb731b',
-            webcode:"https://github.com/joapaspe/joan-pastor-web"
+            webcode:"https://github.com/joapaspe/joan-pastor-web",
+            joan: "http://joan.pastorpellicer.com"
 
         }
+
+        // Javascript initialization
+
+        new WOW().init();
+        // Offset for Main Navigation
+        $('#mainNav').affix({
+            offset: {
+                top: 100
+            }
+        })
     });
 
