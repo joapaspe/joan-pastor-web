@@ -79,7 +79,8 @@ angular.module('joanPastorWebApp')
             twitter: 'https://twitter.com/joan_batiste',
             coursera: 'https://www.coursera.org/user/i/694ef7729912412d9263dcd905bb731b',
             webcode:"https://github.com/joapaspe/joan-pastor-web",
-            joan: "http://joan.pastorpellicer.com"
+            joan: "http://joan.pastorpellicer.com",
+            scholar: "https://scholar.google.es/citations?user=X0ZrimMAAAAJ&hl=en"
 
         }
 

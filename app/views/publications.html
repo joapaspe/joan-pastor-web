@@ -10,16 +10,19 @@
     </thead>
     <tbody>
       <tr ng-repeat="publication in publications">
-        <td> <span ng-bind-html="publication.authors | html"></span>
-          <b ng-bind-html="publication.title | html"></b>
-          <i ng-bind-html="publication.proceeding | html"></i>,
+        <td>
+          <b ng-bind-html="publication.title | html"></b>,
+          <span ng-bind-html="publication.authors | html"></span>.
+          <i ng-bind-html="publication.proceedings | html"></i>,
             {{publication.year}}
         </td>
-        <td><a target="_blank" href="{{publication.url}}"><i class="fa fa-3x fa-file-pdf-o"/></a></td>
+        <td>
+          <a ng-show="publication.url != null" target="_blank" href="{{publication.url}}"><i class="fa fa-3x fa-file-pdf-o"/></a></td>
       </tr>
     </tbody>
-  </table>
 
+  </table>
+  <div class="pull-right btn btn-link"><a href="{{urls.scholar}}" target="_blank">Scholar profile</a></div>
   <!--<div class="page-header">
     <h3> Projects: </h3>
   </div>
