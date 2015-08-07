@@ -94,13 +94,19 @@ body {
   padding-bottom: 50px;
 }
 
-.home a {
-  color: #eee;
-}
+/*.home a {
+  color: #ddd;
+}*/
+
 
 .navbar-default .btn-link{
   color:#ec5418;
 }
 .navbar-default .navbar-text{
   color:#ec5418;
+}
+
+.joan-info {
+  /*color:#ec5418;*/
+    color:#eee;
 }
