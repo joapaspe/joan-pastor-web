@@ -62,8 +62,8 @@ angular.module('joanPastorWebApp')
 
 
         $scope.urls = {
-            cv: 'files/joan-pastor-cv.pdf',
-            cv_eng:'files/joan-pastor-cv-en.pdf',
+            cv: 'data/cv_pastor_web_es.pdf',
+            cv_eng:'data/cv_pastor_web_en.pdf',
             april_ann:'https://github.com/pakozm/april-ann',
             github:'https://github.com/joapaspe',
             bitbucket:'https://bitbucket.org/joapaspe',
