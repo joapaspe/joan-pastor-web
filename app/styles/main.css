@@ -68,6 +68,15 @@ body {
 .marketing p + h4 {
   margin-top: 28px;
 }
+.joan-info {
+    /*color:#ec5418;*/
+    color:#eee;
+}
+
+.joan-info-dark {
+    /*color:#ec5418;*/
+    color:#555;
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -86,8 +95,17 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
+
+
 }
 
+@media screen and (min-width: 1200px) {
+    .joan-info-dark {
+        /*color:#ec5418;*/
+        color:#eee;
+    }
+}
 .my-name h1{
   color:#ec5418;
   font-size: 65px;
@@ -106,7 +124,3 @@ body {
   color:#ec5418;
 }
 
-.joan-info {
-  /*color:#ec5418;*/
-    color:#eee;
-}

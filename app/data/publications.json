@@ -1,4 +1,28 @@
 [
+
+  {
+    "authors": "Joan Pastor-Pellicer, Salvador España-Boquera,Mar&iacute;a Jos&eacute; Castro-Bleda,  Francisco Zamora-Mart&iacute;nez.",
+    "title": "A combined Convolutional Neural Network and Dynamic Programming approach for text line normalization",
+    "proceedings": "International Conference in Document Analisys and Recognition (ICDAR)",
+    "year"  : 2015
+
+  },
+  {
+    "authors": "Joan Pastor-Pellicer, Salvador España-Boquera, Francisco Zamora-Mart&iacute;, M. Afzal Zeshan, Mar&iacute;a Jos&eacute; Castro-Bleda.",
+    "title": "Insights on the Use of Convolutional Neural Networks for Document Image Binarization",
+    "proceedings": "INTERNATIONL WORKSHOP ON ARTIFICAL NEURAL NETWORKS (IWANN)",
+    "year"  : 2015,
+    "url": "http://link.springer.com/chapter/10.1007/978-3-319-19222-2_10"
+  },
+
+  {
+    "authors": "Joan Pastor-Pellicer, Mar&iacute;a Jos&eacute; Castro-Bleda, Jos&eacute; Lu&iacute;s Adelantado-Torres",
+    "title": "esCam: A Mobile Application to Capture and Enhance Text Images",
+    "proceedings": "INTERNATIONL WORKSHOP ON ARTIFICAL NEURAL NETWORKS (IWANN)",
+    "year"  : 2015,
+    "url": "http://link.springer.com/chapter/10.1007/978-3-319-19222-2_50"
+  },
+
   {
     "title": "Handwriting Normalization by Zone Estimation UsingHMM/ANNs",
     "authors": "Joan Pastor-Pellicer, Salvador Espa~na-Boquera, Francisco Zamora-Martinez, and Maria Jose Castro-Bleda.",
@@ -9,7 +33,7 @@
   {
   "authors": "Joan Pastor-Pellicer, Francisco Zamora-Mart&iacute;nez, Salvador España-Boquera and Mar&iacute;a Jos&eacute; Castro-Bleda.",
   "title": "F-Measure as the error function to train Neural Networks",
-  "proceedings": "IWANN",
+  "proceedings": "INTERNATIONL WORKSHOP ON ARTIFICAL NEURAL NETWORKS (IWANN)",
   "year"  : 2013,
   "url": "http://link.springer.com/chapter/10.1007/978-3-642-38679-4_37#page-1"
   },
@@ -36,7 +60,8 @@
   },
   {
     "authors": "Encarna Segarra, Llu&iacute;s-Felip Hurtado, Jon Ander G&oacute;mez, Fernando Garc&iacute;a, Joaquin Planells, Joan Pastor, Luc&iacute; Ortega, Marcos Calvo and Emilio Sanchis.",
-    "title": "A prototype of a spoken dialog system based on statistical models.FALA 2010. VI Jornadas en Tecnolog&iacute;a del Habla and Iberian SLTech Workshop",
+    "title": "A prototype of a spoken dialog system based on statistical models",
+    "proceedings": "FALA 2010. VI Jornadas en Tecnolog&iacute;a del Habla and Iberian SLTech Workshop",
     "year": 2010,
     "url": "http://lorien.die.upm.es/~lapiz/rtth/JORNADAS/VI/pdfs/0054.pdf"
   }
