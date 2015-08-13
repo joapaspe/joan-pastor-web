@@ -1,6 +1,6 @@
 # My personal webpage
 I use this webpage for trying and get fun with new technologies. I build this webpage from the scratch using mainly
-        AngularJs, bootstrap and other libraries. The code of the webpage is also available
+        AngularJs, bootstrap and other libraries. The code of the webpage is also available.
         
 ## Installation
 
@@ -34,12 +34,12 @@ the app folder in to a server (not recommended).
 For building with grunt run the command `grunt build`, this generate the dist folder with the compiled web :)
 
 ## Forking, cloning and copying
-> Wow this webpage it is cool! I want to copy it and do my own webpage, maybe I change the color...
+> Wow this webpage is cool! I want to copy it and do my own webpage, maybe I change the color...
 
 No problem bro, just clone or fork the projects and fill the gaps with your CV. Take what you want and I hope you could get new ideas.
 
 > This webpage it's ugly. Colors are blinding, the layout it's awful.
 
-I know :( Comments where are welcome to improve it.
+I know :( Comments are welcome to improve it.
 
 
