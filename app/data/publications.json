@@ -1,45 +1,52 @@
-[
-
-  {
+[  {
     "authors": "Joan Pastor-Pellicer, Salvador Espa&ntilde;a-Boquera, Mar&iacute;a Jos&eacute; Castro-Bleda,  Francisco Zamora-Mart&iacute;nez",
     "title": "A combined Convolutional Neural Network and Dynamic Programming approach for text line normalization",
-    "proceedings": "International Conference in Document Analisys and Recognition (ICDAR)",
+    "proceedings": "International Conference on Document Analysis and Recognition (ICDAR)",
     "year"  : 2015
-
   },
   {
-    "authors": "Joan Pastor-Pellicer, Salvador España-Boquera, Francisco Zamora-Mart&iacute;nez, M. Afzal Zeshan, Mar&iacute;a Jos&eacute; Castro-Bleda",
+    "authors": "Joan Pastor-Pellicer, Salvador Espa &ntilde;a-Boquera, Francisco Zamora-Mart&iacute;nez, M. Afzal Zeshan, Mar&iacute;a Jos&eacute; Castro-Bleda",
     "title": "Insights on the Use of Convolutional Neural Networks for Document Image Binarization",
-    "proceedings": "INTERNATIONAL WORKSHOP ON ARTIFICAL NEURAL NETWORKS (IWANN)",
+    "proceedings": "International Workshop on Artificial Neural Networks (IWANN)",
     "year"  : 2015,
     "url": "http://link.springer.com/chapter/10.1007/978-3-319-19222-2_10"
   },
-
+  {
+  "authors": "Joan Pastor-Pellicer, Angelika Garz, Rolf Ingold and Maria Jose Castro-Bleda",
+  "title": "Combining Learned Script Points and Combinatorial Optimization for Text Line Extraction",
+  "proceedings": "3rd International Workshop on Historical Document Image and Processing",
+  "year": 2015
+  },
+  {
+    "authors": "Muhammad Zeshan Afzal, Joan Pastor-Pellicer, Faisal Shafait, Thomas Breuel, Andreas Dengel and Marcus Liwicki",
+    "title": "Document Image Binarization using LSTM: A Sequence Learning Approach",
+    "proceedings": "3rd International Workshop on Historical Document Image and Processing",
+    "year": 2015
+  },
   {
     "authors": "Joan Pastor-Pellicer, Mar&iacute;a Jos&eacute; Castro-Bleda, Jos&eacute; Lu&iacute;s Adelantado-Torres",
     "title": "esCam: A Mobile Application to Capture and Enhance Text Images",
-    "proceedings": "INTERNATIONL WORKSHOP ON ARTIFICAL NEURAL NETWORKS (IWANN)",
+    "proceedings": "International Workshop on Artificial Neural Networks (IWANN)",
     "year"  : 2015,
     "url": "http://link.springer.com/chapter/10.1007/978-3-319-19222-2_50"
   },
-
   {
     "title": "Handwriting Normalization by Zone Estimation UsingHMM/ANNs",
     "authors": "Joan Pastor-Pellicer, Salvador Espa&ntilde;a-Boquera, Francisco Zamora-Mart&iacute;nez, and Mar&iacute;a Jos&eacute; Castro-Bleda",
     "proceedings": "Frontiers in Handwriting Recognition (ICFHR), 2014",
-    "year":	 2014,
+    "year":  2014,
     "url": "http://people.sabanciuniv.edu/berrin/cs581/Papers/icfhr2014/data/4334a633.pdf"
   },
   {
-  "authors": "Joan Pastor-Pellicer, Francisco Zamora-Mart&iacute;nez, Salvador España-Boquera and Mar&iacute;a Jos&eacute; Castro-Bleda",
+  "authors": "Joan Pastor-Pellicer, Francisco Zamora-Mart&iacute;nez, Salvador Espa &ntilde;a-Boquera and Mar&iacute;a Jos&eacute; Castro-Bleda",
   "title": "F-Measure as the error function to train Neural Networks",
-  "proceedings": "INTERNATIONL WORKSHOP ON ARTIFICAL NEURAL NETWORKS (IWANN)",
+  "proceedings": "International Workshop on Artificial Neural Networks (IWANN)",
   "year"  : 2013,
   "url": "http://link.springer.com/chapter/10.1007/978-3-642-38679-4_37#page-1"
   },
   {
-    "authors": "Joan Pastor, Llu&iacute;s-Felip Hurtado, Encarna Segarra, and Emilio Sanchis.",
-    "title": "Language modelization and categorization for voice-activated QA.",
+    "authors": "Joan Pastor, Llu&iacute;s-Felip Hurtado, Encarna Segarra, and Emilio Sanchis",
+    "title": "Language modelization and categorization for voice-activated QA",
     "proceedings": "In 16th Iberoamerican Congress on Pattern Recognition",
     "year": 2011,
     "url": "http://link.springer.com/chapter/10.1007/978-3-642-25085-9_56#page-1"
@@ -54,7 +61,7 @@
   {
     "authors": "Emilio Sanchis, Llu&iacute;s-Felip Hurtado, Fernando Garc&iacute;a, Joan Pastor, Joaqu&iacute;n Planells, and Encarna Segarra",
     "title": "Sistema de di&aacute;logo multimodal basado en modelos estad&iacute;sticos",
-    "proceedings": "In XXVII edici&oacute;n del Congreso Anual de la Sociedad Española para el Procesamiento del Lenguaje Natural (SEPLN)",
+    "proceedings": "In XXVII edici&oacute;n del Congreso Anual de la Sociedad Espa &ntilde;ola para el Procesamiento del Lenguaje Natural (SEPLN)",
     "year": 2011,
     "url": "http://rua.ua.es/dspace/handle/10045/18561"
   },
